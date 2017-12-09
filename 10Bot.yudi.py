@@ -3,69 +3,69 @@
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-from bs4 import BeautifulSoup
-import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,tempfile,glob,shutil,unicodedata,goslate
-from gtts import gTTS
+#from bs4 import BeautifulSoup
+#import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,tempfile,glob,shutil,unicodedata,goslate
+#from gtts import gTTS
 
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="")#1
+cl.login(token="EneH3isos7X4FMlHSpn2.AZs3a8Vf+ipnhLTOmQbtuG.PYmrHg4Qq0nlLNKVaYtZhsRcjjpVQW2YjyOA6LXDFdY=")#1
 cl.loginResult()
 
 ki = LINETCR.LINE() 
 #ki.login(qr=True)
-ki.login(token="")#2
+ki.login(token="EneH3isos7X4FMlHSpn2.AZs3a8Vf+ipnhLTOmQbtuG.PYmrHg4Qq0nlLNKVaYtZhsRcjjpVQW2YjyOA6LXDFdY=")#2
 ki.loginResult()
 
 kk = LINETCR.LINE() 
 #kk.login(qr=True)
-kk.login(token="")#3
+kk.login(token="EnXYQQfRKDfNMWLmEKYf.TxpN+3FqpfVz0URVVjPPxW.9s5CizTUqZePX+do5Ccwc70gJtEcuqnThQOlQwIp0f0=")#3
 kk.loginResult()
 
 kc = LINETCR.LINE() 
 #kc.login(qr=True)
-kc.login(token="")#4
+kc.login(token="En22qybCKti7mCFbxnH8.pIfscrd8L4dj1jrbrT2fca.JHecjLBkg14Hts7AVYeCB6b4otmei8yw1LqAKqqw8mY=")#4
 kc.loginResult()
 
 ks = LINETCR.LINE() 
 #ks.login(qr=True)
-ks.login(token="")#5
+ks.login(token="EnNBIlnesOyayVG6gY94.DPUJL7N9FlH3q14qZJ5r5a.D2VkazGIa/WrfwoUT/COkseCTweflqm6ZYW0+T2BBq0=")#5
 ks.loginResult()
 
 k1 = LINETCR.LINE() 
 #k1.login(qr=True)
-k1.login(token="")#6
+k1.login(token="EnRQ1Pp9wm6MN7o8TPB4.+Bc/Zlua/rxta3RDE9Qfra.PY3og6DniI6Xz+2ax3DFlfXIoJHRJqt11/8aqeFN1I0=")#6
 k1.loginResult()
 
 k2 = LINETCR.LINE() 
 #k2.login(qr=True)
-k2.login(token="")#7
+k2.login(token="EnfcwA7uyy2ze6r9wQQ8.0LFAw+X66CVCLF7PSB30Qa.y/WxNze+Ru+XY4hpiurcXlCmD86jPOhikw94dwDp2Dw=")#7
 k2.loginResult()
 
 k3 = LINETCR.LINE() 
 #k3.login(qr=True)
-k3.login(token="")#8
+k3.login(token="EngxLsYsRQPlWxKsMen1.hm/n508o500AIsyh+lXvmq.hVkPNy7lbVHFW8gNESD5FlW59Sfo982WPhJ9eHRR9Qs=")#8
 k3.loginResult()
 
 k4 = LINETCR.LINE() 
 #k4.login(qr=True)
-k4.login(token="")#9
+k4.login(token="En41DAQk4jKPj1dOJZjd.rOli1dtiBis50MI658yqRq.P/allG4ca9VmJTnJ++Opa8OLzMNX5YI6gNIDxXKQ5Q0=")#9
 k4.loginResult()
 
 k5 = LINETCR.LINE() 
 #k5.login(qr=True)
-k5.login(token="")#10
+k5.login(token="En4UfdE8DmVKvVkjBJk0.JAwaMojSWCnrhb405Gw7Sa.6LW1neZMo9BktTEMes4ljHOKuNAiNeDbDEFe3rdEFsA=")#10
 k5.loginResult()
 
 satpam1 = LINETCR.LINE()  
-satpam1.login(token="")#satpam 
+satpam1.login(token="En5x33Q8Twr52yioqfg2.kJj6gKL1avGlp7iF9MY8KG.oKgiUffFSF3UdMoWWDMQ5SOsi+7sKCfXt3CCwCXO3kI=")#satpam 
 #satpam1.login(qr=True)
 satpam1.loginResult()
 
 print "login success bos"
-reload(sys)
-sys.setdefaultencoding('utf-8')
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 ╔═════════════
@@ -323,7 +323,7 @@ wait = {
 
 Idline: http://line.me/ti/p/yudi_std02""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««",
+    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ tɛǟʍ Wahyudi ɮօt ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -2141,7 +2141,7 @@ def bot(op):
                   cl.sendText(msg.to,"The stafflist is empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "||Admin ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰||\n=====================\n"
+                  mc = "||Admin ✰ tɛǟʍ Wahyudi ɮօt ✰||\n=====================\n"
                   for mi_d in admin:
                       mc += "••>" +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc)
@@ -3113,7 +3113,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"done")
             elif msg.text in ["Cancel off","cancel off"]:
-              #if msg.from_ in admin:
+              if msg.from_ in admin:
                 if wait["Protectcancel"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Yang Cancel Undangan Tidak Kami Kick")
@@ -3516,7 +3516,7 @@ def bot(op):
                 else: md+="[•]Protect Cancel [Off]\n"
                 if wait["protectionOn"] == True: md+="[•]Protection : hight\n"+ datetime.today().strftime('%H:%M:%S')
                 else:md+="[•]Protection : low\n"+ datetime.today().strftime('%H:%M:%S')
-                "\n*============*\n⭐✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰⭐\n*============*"
+                "\n*============*\n⭐✰ tɛǟʍ Wahyudi ɮօt ✰⭐\n*============*"
                 cl.sendText(msg.to,md)
             elif "Time" in msg.text:
               if msg.from_ in admin:
@@ -6201,7 +6201,7 @@ def autolike():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by yudi ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
           ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
@@ -6216,13 +6216,13 @@ def autolike():
           k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           k3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
           print "Like"
         except:
           pass
       else:
           print "Already Liked"
-time.sleep(0.01)
+#time.sleep(0.01)
 #thread3 = threading.Thread(target=autolike)
 #thread3.daemon = True
 #thread3.start()
@@ -6243,14 +6243,14 @@ def likePost():
                     k3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k4.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k5.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
-                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
-                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
-                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
-                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
-                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
-                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
-                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ Wahyudi ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ Wahyudi ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
                     print "Like"
                 except:
                     pass
@@ -6295,9 +6295,9 @@ def nameUpdate():
         except:
             pass
          
-thread2 = threading.Thread(target=nameUpdate)
-thread2.daemon = True
-thread2.start()
+	thread2 = threading.Thread(target=nameUpdate)
+	thread2.daemon = True
+	thread2.start()
 
 while True:
     try:
