@@ -10,7 +10,7 @@ from gtts import gTTS
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="E")#1
+cl.login(token="")#1
 cl.loginResult()
 
 ki = LINETCR.LINE() 
@@ -69,7 +69,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 ╔═════════════
-║     ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰ 
+║     ✰ tɛǟʍ Wahyudi ɮօt ✰ 
 ╠═════════════
 ║           Owner : Kris       
 ╠═════════════
@@ -115,14 +115,14 @@ helpMessage ="""
 ║╠[•]T-thai
 ║╠[•]T-id
 ║╚════════════
-║     ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║     ✰ tɛǟʍ Wahyudi ɮօt ✰
 ╚═════════════
 """
 Keyowner ="""
 ╔═════════════
-║       ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰ 
+║       ✰ tɛǟʍ Wahyudi ɮօt ✰ 
 ╠═════════════
-║                    Owner : Kris       
+║                    Owner : ✰ tɛǟʍ Wahyudi ɮօt ✰       
 ╠═════════════
 ║   ◄]·♦·Menu For Admin·♦·[►
 ║╔════════════
@@ -174,14 +174,14 @@ Keyowner ="""
 ║╠[•]Speedbot
 ║╠[•]Speed
 ║╚════════════
-║     ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║     ✰ tɛǟʍ Wahyudi ɮօt ✰
 ╚═════════════
 """
 Setgroup ="""
 ╔═════════════
-║       ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰ 
+║       ✰ tɛǟʍ Wahyudi ɮօt ✰ 
 ╠═════════════
-║                    Owner : Kris       
+║                    Owner : ✰ tɛǟʍ Wahyudi ɮօt ✰       
 ╠═════════════
 ║   ◄]·♦·Menu For Admin·♦·[►
 ║╔════════════
@@ -271,7 +271,7 @@ Setgroup ="""
 ║╚════════════
 ║👑Hanya Utk Owner/Admin👑
 ╠═════════════
-║     ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║     ✰ tɛǟʍ Wahyudi ɮօt ✰
 ╚═════════════
 """
 KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5]
@@ -298,9 +298,9 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
-Creator=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #Krisna,kris,
-owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+Creator=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508"]
+admin=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #Krisna,kris,
+owner=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -309,19 +309,19 @@ wait = {
     'timeline':True,
     'autoAdd':True,
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
-≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
->>✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰<<
+≫ ✰ tɛǟʍ Wahyudi ɮօt ✰ Bot Protect ≪
+>>✰ tɛǟʍ Wahyudi ɮօt ✰<<
 
 ≫ bot protect ≪
 ≫ SelfBot ≪
 
 ṡȗƿƿȏяṭєԀ ɞʏ:
   
-☆ FS3I FAMILY ☆
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-☆ ONE PIECE BOT PROTECT ☆
+☆ ✰ tɛǟʍ Wahyudi ɮօt ✰ ☆
+✰ ✰ tɛǟʍ Wahyudi ɮօt ✰ ✰
+☆ ✰ tɛǟʍ Wahyudi ɮօt ✰ BOT PROTECT ☆
 
-Idline: http://line.me/ti/p/GkwfNjoPDH""",
+Idline: http://line.me/ti/p/yudi_std02""",
     "lang":"JP",
     "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««",
     "commentOn":False,
