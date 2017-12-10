@@ -3,19 +3,17 @@
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-#from bs4 import BeautifulSoup
-#import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,tempfile,glob,shutil,unicodedata,goslate
-#from gtts import gTTS
+import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="EneH3isos7X4FMlHSpn2.AZs3a8Vf+ipnhLTOmQbtuG.PYmrHg4Qq0nlLNKVaYtZhsRcjjpVQW2YjyOA6LXDFdY=")#1
+cl.login(token="EnPyaZ5MV3ApA3rC62n2.AZs3a8Vf+ipnhLTOmQbtuG.tZEse8+oTCBzgua27m8x9ExA3ef5Ef0AZNevExoTNj4=")#1
 cl.loginResult()
 
 ki = LINETCR.LINE() 
 #ki.login(qr=True)
-ki.login(token="EneH3isos7X4FMlHSpn2.AZs3a8Vf+ipnhLTOmQbtuG.PYmrHg4Qq0nlLNKVaYtZhsRcjjpVQW2YjyOA6LXDFdY=")#2
+ki.login(token="EnG2uT8Er5Sy3PxoM0r7.8DHCNR+5ggo//QiQT7pj9W.WxUhyx1x4P4z/h94rcaJ9C7fevcmfnzS3fM9ajvnmXk=")#2
 ki.loginResult()
 
 kk = LINETCR.LINE() 
@@ -62,16 +60,15 @@ satpam1 = LINETCR.LINE()
 satpam1.login(token="En5x33Q8Twr52yioqfg2.kJj6gKL1avGlp7iF9MY8KG.oKgiUffFSF3UdMoWWDMQ5SOsi+7sKCfXt3CCwCXO3kI=")#satpam 
 #satpam1.login(qr=True)
 satpam1.loginResult()
-
-print "login success bos"
-#reload(sys)
-#sys.setdefaultencoding('utf-8')
+print "login success plak"
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 ╔═════════════
 ║     ✰ tɛǟʍ Wahyudi ɮօt ✰ 
 ╠═════════════
-║           Owner : Kris       
+║           Owner : Wahyudi       
 ╠═════════════
 ║   ◄]·♦·Menu For Public·♦·[►
 ║╔════════════
@@ -255,7 +252,7 @@ Setgroup ="""
 ║╠[•]Pm cast
 ║╠[•]Bot like
 ║╠════════════
-║╠[•]One piece
+║╠[•]Wahyudi
 ║╠[•]Kabur all
 ║╠[•]Kabur
 ║╠[•]Bot kadieu
@@ -298,9 +295,9 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
-Creator=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508"]
-admin=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #Krisna,kris,
-owner=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508"]
+Creator=["u6b34b703cbc5fc83cd1e5b6832a05352"]
+admin=["u6b34b703cbc5fc83cd1e5b6832a05352",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #Krisna,kris,
+owner=["u6b34b703cbc5fc83cd1e5b6832a05352"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -2344,7 +2341,7 @@ def bot(op):
             elif msg.text.lower() == "crash":
               if msg.from_ in owner:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "c33b66e4b7709e54a6fe6eced6e57c157',"}
+                msg.contentMetadata = {'mid': "u6b34b703cbc5fc83cd1e5b6832a05352',"}
                 cl.sendMessage(msg)
 #====================================================
             elif msg.text in ["Me"]:
@@ -4527,7 +4524,7 @@ def bot(op):
                                 cl.sendText(msg.to,"Group cleanse")
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["One piece","Kr asup","Asup"]: #Panggil Semua Bot
+            elif msg.text in ["1","Kr asup","Asup"]: #Panggil Semua Bot
               if msg.from_ in owner:
                 G = cl.getGroup(msg.to)
                 ginfo = cl.getGroup(msg.to)
@@ -4620,7 +4617,7 @@ def bot(op):
                     ginfo = cl.getGroup(msg.to)
                     try:
                         ki.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nJangan Lupa Bahagia...!!!")
-                        ki.leaveGroup(msg.to)
+                        #ki.leaveGroup(msg.to)
                         kk.leaveGroup(msg.to)
                         kc.leaveGroup(msg.to)
                         ks.leaveGroup(msg.to)
@@ -4634,13 +4631,13 @@ def bot(op):
                     except:
                         pass
             
-            elif msg.text in ["Kabur"]: #Semua Bot Ninggalin Group Kecuali Bot Induk
+            elif msg.text in ["moleh"]: #Semua Bot Ninggalin Group Kecuali Bot Induk
               if msg.from_ in owner:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
                         ki.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nJangan Lupa Bahagia...!!!")
-                        ki.leaveGroup(msg.to)
+                        #ki.leaveGroup(msg.to)
                         kk.leaveGroup(msg.to)
                         kc.leaveGroup(msg.to)
                         ks.leaveGroup(msg.to)
@@ -5451,7 +5448,7 @@ def bot(op):
                   cl.sendText(msg.to,h)
       #--------------List Group------------
        #------------ Keluar Dari Semua Group------
-            elif msg.text in ["Bot kadieu","Bot arampih"]: # Keluar Dari Semua Group Yang Di dalem nya  ada bot(Kalo Bot Kalian Nyangkut di Group lain :D)
+            elif msg.text in ["Bot kluar","Bot arampih"]: # Keluar Dari Semua Group Yang Di dalem nya  ada bot(Kalo Bot Kalian Nyangkut di Group lain :D)
               if msg.from_ in owner:
                 gid = cl.getGroupIdsJoined()
                 gid = ki.getGroupIdsJoined()
@@ -5922,11 +5919,11 @@ def bot(op):
       #-------------Fungsi Banned Send Contact Finish------------------#
             elif msg.text in ["Creator"]:
               msg.contentType = 13
-              msg.contentMetadata = {'mid': 'u31ef22df7f538df1d74dc7f756ef1a32'}
+              msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
-              cl.sendText(msg.to,"Itu Creator Kami Yang Manis Kalem 😜\nSmule : @FS3i_Kris_S1H\nNama : Kris\nZodiak : Cancer")  
+              cl.sendText(msg.to,"Itu Creator Kami Yang Manis Kalem 😜\nSmule : @RK_WAHYU\nNama : Wahyudi\nZodiak : Sagitarius")  
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi"]:
                  quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami 😂😂😂.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Koplak Lu','Muka Lu Kaya Jembut','Ada Orang kah disini?','Ada Janda Yang Bisa Di Ajak Mojok Gak, Euy','Ada Perawan Nganggur ga Coy?']
