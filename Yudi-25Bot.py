@@ -103,27 +103,27 @@ k14.loginResult()
 
 k15 = LINETCR.LINE()
 #k15.login(qr=True)
-k15.login(token="En62AxI4m5pbquE9BxN0.MsOi6uVzxa4qA+cHgMnbWa.4oZBsg4Xe0YFh8dZtY4nhiepDO78FgrnQ3P8MARxUZo=")#gondrong
+k15.login(token="EnmCVqYbfGO5u0LGIGaf.xJUtYDt++RBi3klp87+xlW.7z6zZWPf9TK93MVvKHs2UbhP6zJGBB6BmjMraqmOIE8=")#gondrong
 k15.loginResult()
 
 k16 = LINETCR.LINE()
 #k16.login(qr=True)
-k16.login(token="EnE5krPv5gfb8fjWdIW7.7Vbk3zfGuJk3W4wl8d8brW.slETAAijDQIklYE4T1tXjLeChLbyIbG8t57QZjxsiPg=")
+k16.login(token="EnnFGK6AknxF1NDDwMJ5.WVIB6Th9FuqOpB9Iw2XUbq.DSooi371J9gM1ZH+q0DHPzsxfIEEszoz8jUXF2IFZVA=")
 k16.loginResult()
 
 k17 = LINETCR.LINE()
 #k17.login(qr=True)
-k17.login(token="EnBdOPUH3ta0KrVPcfDc.206JUnl6CWcOivpdHpNtZa.y6thnDgQzNqwSgpUP7Qu6JDFfG2W91QookBHnC9/dEE=")
+k17.login(token="En9wjOwk4ToKaOjF5I87.8DHCNR+5ggo//QiQT7pj9W.FpXmtdVYvp/060ecr0WUr+FGOnRHwy7lbbdBfusxg7g=")
 k17.loginResult()
 
 k18 = LINETCR.LINE()
 #k18.login(qr=True)
-k18.login(token="EnY3DksW3naPSq2dbc06.rlS4MMX9nYUjawGSeXG6HG.zWB3OfqdKSuuPcn43N/6a2wSgqYGajzA3HSd2Rp5pMY=")
+k18.login(token="En3FJnEXtlHEqSKeZf74.eKVQczIDnmzo80Nf0AhV1a.GAVz8CghCWtpTlGJXU5rgRYkEVaust9sS0Klv/1E6d0=")
 k18.loginResult()
 
 k19 = LINETCR.LINE() 
-#k19.login(qr=True)
-k19.login(token="Enx9MYWVou14uaLQ26Qa.X0ZV0IJxvANMEp376mU+QG.azVRauStJDuUuRhEDYohKRp1q2Oc+cHzuamfVhn1VF0=")#1.2
+k19.login(qr=True)
+#k19.login(token="")#1.2
 k19.loginResult()
 
 k20 = LINETCR.LINE() 
@@ -132,8 +132,8 @@ k20.login(qr=True)
 k20.loginResult()
 
 satpam1 = LINETCR.LINE() # 
-#satpam1.login(token="")#satpam 
-satpam1.login(qr=True)
+satpam1.login(token="")#satpam 
+#satpam1.login(qr=True)
 satpam1.loginResult()
 
 k19 = k20 = k18
