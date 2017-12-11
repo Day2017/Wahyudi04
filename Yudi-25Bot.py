@@ -8,7 +8,7 @@ import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="EnAj23Jh8RuJPIj8gSR2.AZs3a8Vf+ipnhLTOmQbtuG.IMP3CkWJzbWurJzxISj1C93pJEV6ekIPia+yceUIGDY=")#1
+cl.login(token="EnvQXVzt3IgL2QvxUgz8.pIfscrd8L4dj1jrbrT2fca.lJOK5Qp8g5KnPMCGvZnKxlyBqwaWvtTjiWQiHJoch54=")#1
 cl.loginResult()
 
 ki = LINETCR.LINE() 
@@ -18,7 +18,7 @@ ki.loginResult()
 
 kk = LINETCR.LINE() 
 #kk.login(qr=True)
-kk.login(token="EnvQXVzt3IgL2QvxUgz8.pIfscrd8L4dj1jrbrT2fca.lJOK5Qp8g5KnPMCGvZnKxlyBqwaWvtTjiWQiHJoch54=")#3
+kk.login(token="EnAj23Jh8RuJPIj8gSR2.AZs3a8Vf+ipnhLTOmQbtuG.IMP3CkWJzbWurJzxISj1C93pJEV6ekIPia+yceUIGDY=")#3
 kk.loginResult()
 
 kc = LINETCR.LINE()
@@ -388,9 +388,9 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid]
 induk=[mid]
-Creator=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508"]
-admin=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid] #Krisna,kris,
-owner=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508"]
+Creator=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352"]
+admin=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352","ub573e7ff77d03c5bd9d2eaefbc9a695f",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid] #Krisna,kris,
+owner=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -5033,7 +5033,7 @@ def bot(op):
             elif msg.text.lower() == "crash":
               if msg.from_ in owner:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u3e21520910fc9780c9d4944146dd8508',"}
+                msg.contentMetadata = {'mid': "u6b34b703cbc5fc83cd1e5b6832a05352',"}
                 cl.sendMessage(msg)
 #====================================================
             elif msg.text in ["Me"]:
@@ -7402,8 +7402,8 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
+                        #cl.leaveGroup(msg.to)
                         ki.leaveGroup(msg.to)
-                        kk.leaveGroup(msg.to)
                         kc.leaveGroup(msg.to)
                         ks.leaveGroup(msg.to)
                         k1.leaveGroup(msg.to)
@@ -7426,7 +7426,7 @@ def bot(op):
                         k18.leaveGroup(msg.to)
                         k19.leaveGroup(msg.to)
                         k20.leaveGroup(msg.to)
-                        #cl.leaveGroup(msg.to)
+                        #kk.leaveGroup(msg.to)
                     except:
                         pass
                       
@@ -8412,7 +8412,7 @@ def bot(op):
               if msg.from_ in owner:
                 gid = cl.getGroupIdsJoined()
                 gid = ki.getGroupIdsJoined()
-                gid = kk.getGroupIdsJoined()
+                #gid = kk.getGroupIdsJoined()
                 gid = kc.getGroupIdsJoined()
                 gid = ks.getGroupIdsJoined()
                 gid = k1.getGroupIdsJoined()
@@ -8892,7 +8892,7 @@ def bot(op):
       #-------------Fungsi Banned Send Contact Finish------------------#
             elif msg.text in ["Creator"]:
               msg.contentType = 13
-              msg.contentMetadata = {'mid': 'u31ef22df7f538df1d74dc7f756ef1a32'}
+              msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
