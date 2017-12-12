@@ -6,86 +6,86 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EmOSezrjZn4jbJWXp4Mc.ggZ3LaX96pDQplX2qf9Fxa.7EnkPt2m+fgeoisLlgE+Ov/LfTBLQjQRZaQqLMhI8fc=")
+cl.login(token="EnvQXVzt3IgL2QvxUgz8.pIfscrd8L4dj1jrbrT2fca.lJOK5Qp8g5KnPMCGvZnKxlyBqwaWvtTjiWQiHJoch54=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EmaVvITzZCcQjo7W3PJb.SK7Te9gWYUQsywhOX1wfYW.quWHfPMQMRB0oZQ0uPxOCxzkWuEojOkAkiHRKhR6eZA=")
+ki.login(token="EnJHnzZtcLZy08jUudr8.6aZTpsG37MxD+MqNsJxP6a.pZsWL5U6ieTsZrFJuMXnf7QpspabSy9KaU1zGy6VO6I=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EmiogXguyGv03chUFqFe.Vz4+DI5v8TEUGtMphKulhG.j2aMaGOTGQUS8Fx0dz1ny8ebdpvXlDtAEQagsmivPQg=")
+kk.login(token="EnAj23Jh8RuJPIj8gSR2.AZs3a8Vf+ipnhLTOmQbtuG.IMP3CkWJzbWurJzxISj1C93pJEV6ekIPia+yceUIGDY=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EmzqcRBq7IcOUrzyLCPf.khw5oKeXkGNprT+dPTIyhW.RYojfWiLfx6InOw27rvsI71NY//HhLRMX0RjYqKZRZM=")
+kc.login(token="EnJ6mjXHY2IGs6R9n1Hf.TxpN+3FqpfVz0URVVjPPxW.zUTh0PiZgXO1pQY7kHa5tn8g8AHT5ivC1FqRLTsiIGc=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="Emr2Vurv5MbVJBCstgO9.NLEdVUFE9zK89Wsdc4+xQq.7J5xt1VOfegPn01qfCODHgH5tRu672IZM/mecO3BL6c=")
+kd.login(token="En6QESR7hoEmT4F3A2m4.DPUJL7N9FlH3q14qZJ5r5a.SwCLojcGrkvRGB2rzgPJH+k0P5UD2C+PLy3yzCRF51I=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EmxBEWwTLeAFzWy4YIx8.8dn1/XO+lm5j1UydamMhsa.Vy3Yg/C5iHr08ocQtjgfWvvZ2VovcPWDw0e8ClvDZfw=")
+ke.login(token="EnlG4y1876rJ6k4O0WL4.+Bc/Zlua/rxta3RDE9Qfra.GhjAQy9dGlOPyMu05Y9wgNRDI7UHt1VnAiVViGHAnlY=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="EmXghEnhwPcp05GrCJOf.2Ad+jSMK5L577woncnuh7W.2ypZiZCTMdgCQiCkMI77WJJWDgnJ+1b3xLpuZ2cUFnY=")
+kf.login(token="EnYglmuDtOrrZzCz5MO8.0LFAw+X66CVCLF7PSB30Qa.DFXqp/uBBHSQcIdpf+7vfq0VJXWCuqqfh72ZNnvYMlA=")
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="EmQUsLtqrrg5dPDpk9R3.WYwUmPddvCwHomBR1CqRKW.KTi5YyuOFsP6+76NYf8Y9iz+rDks7sKzmtZ48q7QHVM=")
+kg.login(token="EntaZG1XY2EgVxbuAaW1.hm/n508o500AIsyh+lXvmq.USXhhYC0Dnh9OwOHUaI6QC1Lh4ZoAyQcHqBblMyLSao=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="Emq4iaP5toSDPvY33GWd.2LoE6VMBQSoJV0xj2s8CRq.MdcwKXXf4/iGD73WBxmzDGajg02SAUH5y/Qm21ftvhs=")
+kh.login(token="EninnKrHFUpBOMgFrCk8.5Gss6Cj7IBEXrUFBawm9oa.U7zxbe6DD9P52hXLGWwjloGINuKlQWHpUtgSsDB063g=")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EmDgHCS2au797sJXV7l1.g6FOp0t4PxDBHY58MdDjSq.SOpvVx0ee2KZJVrF4CdJi3sCTYfke+wUrSi57/svigM=")
+kj.login(token="EnDBX2qdv1CbyWyEdyu1.F998qotUGTGQIRjcj/3fKq.XNkXIlffqqlmRBkRmQdvcDUXRiO0GAo/+A65lF/HHO0=")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EmvEEvB0owIRu8VhK8n7.0PhcaDg6BmNNypOZPKzWPW.AwT+5Mc8Tiy4+vg5cBorBKUm3nV6KGA47vYWel/SG/k=")
+kl.login(token="EnJKHSdZ0pIVQ9vpYAQ3.SO/fObQ10CshHFFY0L3meW.UQV56fkXVTk1uRO0pSsbGDJDA8TUy12Vzmj0ThBRowk=")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EmS1Hj6dGZ6cmtdcZItc.sZv3N17Hnvf3rV+iVgX3la.2643jQuYbz5C1dgZ9a7iDI0ViyP5gsXfiGEpydChXWg=")
+km.login(token="Enw3Vyivaalra403LERd.rOli1dtiBis50MI658yqRq.CAnS9i55O0J7/qLZf/LIS8yd+i1KSh2PH1tQcSOy8Oo=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="EmTDEIC1aJzqp8vzgbId.WhaXXUtVTTGNCzAQZKoahq.O1cq++v6eOrgINr9mlYuQlSP16WQ1tSiNggI3vbqGIs=")
+kn.login(token="EnCifPd5Tc5F3u7mO0i0.JAwaMojSWCnrhb405Gw7Sa.QwIMdNcSvc7UuHJ93FL3Kn2neKfmEC3eNN6gG+FxPE8=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EmKLtcKPfJWLMXdovCX0.J+CcBoFrJAH0a2V2NbmW0a.cawl3+YskNvEscQkqlJ6gdKF/8PdwQ2SxztsJOfESlM=")
+ko.login(token="EndK1JKkdpl9wB4gdbm2.kJj6gKL1avGlp7iF9MY8KG.j2RsigIr9LP7KfOeJLgjSA1R9u40UwdzjsuP0KV36pk=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="Em6ssEpFOovGMKfvGs58.CvfDE0xmrO8VQJ0W/N/iMa.mV4cn4B3WMGsfqHkAafg9P5CHZ4uHgAaGHdjRtPxVvM=")
+kp.login(token="En9TOIUfE2WyoXCD7l74.hz3BUHBhWs9y9M66OUsVXa.FQoVihfIMAP3no25MwO2PT2uRbmzkuYxymaFCShtoPo=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EmtPvm7HnK0Weu7C26f4.h+7LUlIDiBHqDaKNxldQza.iqP0myOWnxmAFR3pylds2HRyGhGsbDeE8EHWroMAq+Y=")
+kq.login(token="EnTzqSIB5hpjSjaUXzp6.zbzLgObFSJIgQgJQvcBBPG.44vY/TL5s+Bypu87rQuExKc+8yR59AOcV0H4OL92bCI=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="Emp1ze1uZVSmIb6R1JD4.nVVrGx/cv6f5b03ArGFU5a.FVXgKB5umtIsSaLX3wEd//9PQvSLfJ0hFQD5DSlUkzw=")
+kr.login(token="EncFq0IWEPEwmOWUObK4.4tpKgyQpvX03tq+Nc2O81a.s675l1+/7PZ2hznoDuH4FWmjYE4rvWiAAp4qelq9IP0=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EmMNxkESqtLLGdYimFx2.lCQlKffPrDvJ4C9I01fB4G.Mi9qkLaNGflBN5yHA7bBxM+zeW4zDyttagUtbJq73lQ=")
+ks.login(token="En6cLAnzmzMLxf8Tn8s5.I5/VTy4nlTo0SUVhFfe6Xq.IV5c4LHKA6bR4k1ziZKaxf+c7hwG1Pt7jPByl5UXRtA=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="Em2HmZvkE4cyoLFijUL2.95DDfpXOzsm0FioN2vCdmG.n1GSAR13TkVFjvmrTZnh/Itk/Gz7RbgmChc8sGXdklM=")
+kt.login(token="EnKKOa3cbKeriUPg4jK8.gyJ7IyLouRfMg9Euqk50Ma.yiGw+8VE6ShqL2u5aca3ggjfdxnAxnniBFztlqbi2Lg=")
 kt.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage =""" ====[🇹🇭〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗🇹🇭]====
+helpMessage =""" ====[🇹🇭〖꧁[WAHYUDI]꧂〗🇹🇭]====
 
-                🇹🇭⬇️⬇️คำสั่งทั้งหมด⬇️⬇️🇹🇭
+                🇹🇭⬇️⬇️[WAHYUDI]⬇️⬇️🇹🇭
 
 ❂͜͡🇹🇭➣ Me
 ❂͜͡🇹🇭➣ Id
@@ -178,12 +178,12 @@ helpMessage =""" ====[🇹🇭〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗🇹🇭]=
 
         
   
-     ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
+     ☆[WAHYUDI]☆
 
-           〖꧁☢☠ℓℓஆՁՃิ☠☡꧂〗
-       [ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]
+           〖꧁[WAHYUDI]꧂〗
+       [ 🇹🇭〖[WAHYUDI]〗🇹🇭 ]
        
-       http://line.me/ti/p/j2nADgDkJf
+       http://line.me/ti/p/yudi_std02
 
 """
 helpMessage2 ="""╔════════════════╗
@@ -244,7 +244,7 @@ helpMessage2 ="""╔════════════════╗
 ║[Blockinvite: on/off]: 
 ╠═══════════════════╝
 ║
-║ [  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  ]
+║ [  🇹🇭〖[WAHYUDI]〗🇹🇭  ]
 ╚═══════════════════════════╝
 """
 
@@ -275,12 +275,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u186cf7940c7de8f76a3cbc76405f5f5c",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-self = ["u186cf7940c7de8f76a3cbc76405f5f5c",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
-admin = "u186cf7940c7de8f76a3cbc76405f5f5c"
-owner = "u186cf7940c7de8f76a3cbc76405f5f5c"
-admsa = "u186cf7940c7de8f76a3cbc76405f5f5c"
-adminMID = "u186cf7940c7de8f76a3cbc76405f5f5c"
+Bots = ["u6b34b703cbc5fc83cd1e5b6832a05352",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+self = ["u6b34b703cbc5fc83cd1e5b6832a05352",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
+admin = "u6b34b703cbc5fc83cd1e5b6832a05352"
+owner = "u6b34b703cbc5fc83cd1e5b6832a05352"
+admsa = "u6b34b703cbc5fc83cd1e5b6832a05352"
+adminMID = "u6b34b703cbc5fc83cd1e5b6832a05352"
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -288,9 +288,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  http://line.me/ti/p/j2nADgDkJf ► แมวชิ   http://line.me/ti/p/ShgslAPyYS ► แมวนุ  http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้  ",
+    'message':"Thanks for add Me  🇹🇭〖[WAHYUDI]〗🇹🇭  http://line.me/ti/p/yudi_std02 ► แมวชิ   http://line.me/ti/p/yudi_std02 ► แมวนุ  http://line.me/ti/p/yudi_std02   ► พี่โจ้  ",
     "lang":"JP",
-    "comment":"AutoLike 🥀Love🥀  🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭  http://line.me/ti/p/j2nADgDkJf ► แมวชิ   http://line.me/ti/p/ShgslAPyYS ► แมวนุ  http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้  ",
+    "comment":"AutoLike 🥀Love🥀  🇹🇭〖[WAHYUDI]〗🇹🇭  http://line.me/ti/p/yudi_std02 ► แมวชิ   http://line.me/ti/p/yudi_std02 ► แมวนุ  http://line.me/ti/p/yudi_std02   ► พี่โจ้  ",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -2113,7 +2113,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 13:
                 msg.to = msg.from_
-                if msg.from_ == "u186cf7940c7de8f76a3cbc76405f5f5c":
+                if msg.from_ == "u6b34b703cbc5fc83cd1e5b6832a05352":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -2472,30 +2472,30 @@ def bot(op):
                 kt.sendMessage(msg)
             elif msg.text in ["Bot Team"]:
                 msg.contentType = 13
-                kk.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[ครอบครัว]\n[ 🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭 ]")
-                ki.sendText(msg.to, "หัวหน้าครอบครัว: ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ")
-                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b '}
+                kk.sendText(msg.to, "[SELFBOT [WAHYUDI] BOT]\n\n[WAHYUDI]\n[ 🇹🇭〖இहई╬۞¥ûDï۞╬हई〗🇹🇭 ]")
+                ki.sendText(msg.to, "หัวหน้าครอบครัว: ꧁A....꧂ ")
+                msg.contentMetadata = {'mid': 'u3e21520910fc9780c9d4944146dd8508 '}
                 kc.sendMessage(msg)
-                kd.sendText(msg.to, "เมียหัวหน้าครอบครัว:꧁☢☠ℓℓஆՁՃิ☠☡꧂ ")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c '}
+                kd.sendText(msg.to, "เมียหัวหน้าครอบครัว:꧁இहई╬۞¥ûDï۞╬हई꧂ ")
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352 '}
                 ke.sendMessage(msg)
-                kf.sendText(msg.to, "ผู้จัดการ ครอบครัว: ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ")
-                msg.contentMetadata = {'mid': ' u5068fff4398601a4b5fa1c9876ea170c '}
+                kf.sendText(msg.to, "ผู้จัดการ ครอบครัว: (21:14) ")
+                msg.contentMetadata = {'mid': ' ue80ced3d2837ee65ddfe64274a35e9e8 '}
                 kg.sendMessage(msg)
-                kh.sendText(msg.to, "ผู้ดูแลระบบบอท:꧁☢☠ℓℓஆՁゆຸ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b '}
+                kh.sendText(msg.to, "ผู้ดูแลระบบบอท:꧁A....꧂")
+                msg.contentMetadata = {'mid': 'u3e21520910fc9780c9d4944146dd8508 '}
                 kj.sendMessage(msg)
-                kl.sendText(msg.to, "ผู้ดูแลเรื่องคำสั่งบอท:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์ ")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c '}
+                kl.sendText(msg.to, "ผู้ดูแลเรื่องคำสั่งบอท:(21:14) ")
+                msg.contentMetadata = {'mid': 'ue80ced3d2837ee65ddfe64274a35e9e8 '}
                 km.sendMessage(msg)
-                kn.sendText(msg.to, "ผู้ดูแลเรืีองการเข้าสู่ระบบ.บอท.:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c '}
+                kn.sendText(msg.to, "ผู้ดูแลเรืีองการเข้าสู่ระบบ.บอท.:꧁இहई╬۞¥ûDï۞╬हई꧂")
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352 '}
                 ko.sendMessage(msg)
-                kp.sendText(msg.to, "ตัวเเทนขาย1 :⬇️⬇️⬇️ติดต่อโดยตรง ⬇️⬇️⬇️")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
+                kp.sendText(msg.to, "ตัวเเทนขาย1 :⬇️⬇️⬇️(21:14) ⬇️⬇️⬇️")
+                msg.contentMetadata = {'mid': 'ub573e7ff77d03c5bd9d2eaefbc9a695f'}
                 kr.sendMessage(msg)
-                ks.sendText(msg.to, "ตัวเเทนขาย2:⬇️⬇️⬇️ติดต่อโดยตรง⬇️⬇️⬇️")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
+                ks.sendText(msg.to, "ตัวเเทนขาย2:⬇️⬇️⬇️(21:14)⬇️⬇️⬇️")
+                msg.contentMetadata = {'mid': 'ub573e7ff77d03c5bd9d2eaefbc9a695f'}
                 kt.sendMessage(msg)
             elif "youtt " in msg.text.lower():
                 if msg.toType == 2:
@@ -2684,10 +2684,10 @@ def bot(op):
                         pass
             elif msg.text.lower() in ["admins","mee"]:
                 msg.contentType = 13
-                adm = 'u00f827ce6641038d7c9b6704a9777dfa'
+                adm = 'u6b34b703cbc5fc83cd1e5b6832a05352'
                 msg.contentMetadata = {'mid': adm}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to,"Add Line http://line.me/ti/p/09T2waRE7l")
+                cl.sendText(msg.to,"Add Line http://line.me/ti/p/yudi_std02")
 
 
             elif msg.text in ["ของขวัญ","Gift"]:
@@ -2995,7 +2995,7 @@ def bot(op):
                 msgs+="\n\nTotal %i blocked user(s)" % len(kontak)
                 cl.sendText(msg.to, msgs)
 
-            elif msg.text.lower() == '•••':
+            elif msg.text.lower() == 'hay':
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -3020,7 +3020,7 @@ def bot(op):
                         kr.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ks.acceptGroupInvitationByTicket(msg.to,Ticket)
                         kt.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[꧁☢☠ℓℓஆՁՃิ☠☡꧂]")
+                        ki.sendText(msg.to,"Hello " + str(ginfo.name) + "\n\n[இहई╬۞¥ûDï۞╬हई]")
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -3028,7 +3028,7 @@ def bot(op):
                         print "kicker ok"
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
-            elif msg.text.lower() == '#bye':
+            elif msg.text.lower() == 'moleh':
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
@@ -3071,7 +3071,7 @@ def bot(op):
                     except:
                         pass
 
-            elif "#v10" in msg.text:
+            elif "v10" in msg.text:
                 cl.sendText(msg.to,"""[SELFBOT PHET HACK BOT]\n\n
 Phet Tema Hack Bot
 คำสั่งบอท siri
@@ -3142,18 +3142,10 @@ Viewlastseen   สั่งอ่าน
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 สนใจติดต่อที่
-http://line.me/ti/p/ShgslAPyYS ► แมวนุ
+http://line.me/ti/p/yudi_std02► แมวนุ
 
-http://line.me/ti/p/j2nADgDkJf ► แมวชิ 
 
-http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
-꧁☢☠ℓℓஆՁゆຸ☠☡꧂
-
-꧁☢☠ℓℓஆՁՃิ☠☡꧂
-
-ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์
-
-🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
+🇹🇭〖இहई╬۞¥ûDï۞╬हई〗🇹🇭
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 """)
 
@@ -3365,14 +3357,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
             elif "Phet Keyy" in msg.text:
                 cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[{PHET HACK BOT}] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
 
-۩✟ໄ௮่௮ิთਙԳのਙ ۞ ໄ௮่જӘபլのਙีઈ.۩
-.•*´¨`*•.¸¸.•*´¨`*•.¸¸.•*´¨`*•.¸¸.•*
-Әध่ךլਙี้धחՁ่ך௮ิთਙଣ้ךのิஇनะււnଏ श้ךଏமढัსიุ
-×º°”˜`”°º× ×º°”˜`”°º×
-🇹🇭〖✟ŋีಖଏדЮ۞নმ௮✫₷ণજัゆ۩〗🇹🇭
-↜«↜«↜««✾»»↝»↝»↝
-♡♥S ҉  ⓛⓞⓥⓔ N ҉ ♥♡
-💖¹⁵ / ⁸ /² ⁰ ¹ ⁶ 💖
+۩இहई╬۞¥ûDï۞╬हई۩
 ﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴﺴ
 
 """)
@@ -3440,7 +3425,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                         cl.sendText(msg.to,"Can not be used outside the group")
                     else:
                          cl.sendText(msg.to,"Not for use less than group")
-            elif "Bot?" in msg.text:
+            elif "Bot" in msg.text:
                 ki.sendText(msg.to,"Bot 1🔥")
                 kk.sendText(msg.to,"Bot 2🔥")
                 kc.sendText(msg.to,"Bot 3🔥")
@@ -3867,9 +3852,9 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                         cl.sendText(msg.to,"Already。")
 
 
-            elif msg.text in ["Sett","Set"]:
+            elif msg.text in ["menu","Set"]:
                 print "Setting pick up..."
-                md = "✯=꧁☢☠ℓℓஆՁゆຸ☠☡꧂=✯\n\n"
+                md = "இहई╬۞¥ûDï۞╬हई\n\n"
                 if wait["likeOn"] == True: md+="􀜁􀇔􏿿 Auto like : on 􀜁􀄯􏿿\n"
                 else:md+="􀜁􀇔􏿿 Auto like : off 􀜁􀄰􏿿\n"
 #                if wait["copy"] == True: md+="�� Mimic : on\n"
@@ -4291,7 +4276,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 print "[Command]Speed palsu executed"
 
             elif msg.text in ["Keyy"]:
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[ ꧁☢☠ℓℓஆՁՃิ☠☡꧂ ]")
+                cl.sendText(msg.to, "[SELFBOT இहई╬۞¥ûDï۞╬हई BOT]\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[ இहई╬۞¥ûDï۞╬हई ]")
 
 #========================================
             elif msg.text in ["Botbb"]:
@@ -4405,7 +4390,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                     cl.sendText(msg.to, str (e))
 
 #=================================================
-            elif msg.text == "นับ":
+            elif msg.text == "cctv":
                     cl.sendText(msg.to, "!โปรดรอ..กรุณาพิมพ์ อ่าน")
                     try:
                         del wait2['readPoint'][msg.to]
@@ -4433,7 +4418,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 						
 #========================================
 #---------------FUNGSI RATAIN GRUP TANPA KICK SESAMA BOT/Admin/Bots----------#
-            elif "Kickall" in msg.text:
+            elif "bubar" in msg.text:
               if msg.from_ in Bots:
                 if msg.toType == 2:
                     print "ok"
@@ -4543,36 +4528,36 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 					for manusia in n:
 						cl.sendText(manusia,(bctxt))
 										 
-            elif msg.text in ["ครอบครัว","ทีม"]:
+            elif msg.text in ["ครอบครัว","opo"]:
                 msg.contentType = 13
-                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[ทีมขายบอท]\n[By. ꧁☢☠ℓℓஆՁゆຸ☠☡꧂ ]")
-                cl.sendText(msg.to, "หัวหน้าครอบครัว:꧁☢☠ℓℓஆՁゆຸ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b'}
+                cl.sendText(msg.to, "[SELFBOT PHET HACK BOT]\n\n[ทีมขายบอท]\n[By. இहई╬۞¥ûDï۞╬हई ]")
+                cl.sendText(msg.to, "หัวหน้าครอบครัว:இहई╬۞¥ûDï۞╬हई")
+                msg.contentMetadata = {'mid': 'u3e21520910fc9780c9d4944146dd8508'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "เมียหัวหน้าครอบครัว:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
+                cl.sendText(msg.to, "เมียหัวหน้าครอบครัว:இहई╬۞¥ûDï۞╬हई")
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to, "ผู้ดูแลเรื่องคำสั่ง:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
+                msg.contentMetadata = {'mid': 'ub573e7ff77d03c5bd9d2eaefbc9a695f'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "ผู้ดูแลระบบบอท:꧁☢☠ℓℓஆՁゆຸ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u2c7f708769a2eb35d9ae9f73cd366e0b'}
+                cl.sendText(msg.to, "ผู้ดูแลระบบบอท:இहई╬۞¥ûDï۞╬हई")
+                msg.contentMetadata = {'mid': 'u3e21520910fc9780c9d4944146dd8508'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "ผู้ดูแลลูกค้าและการเข้าระบบบอท:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
+                cl.sendText(msg.to, "ผู้ดูแลลูกค้าและการเข้าระบบบอท:இहई╬۞¥ûDï۞╬हई")
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to, "ผู้ดูแลลูกค้าและการเขาระบบบอท2:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
+                msg.contentMetadata = {'mid': 'ub573e7ff77d03c5bd9d2eaefbc9a695f'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to, "ตัวแทนขาย1:꧁☢☠ℓℓஆՁՃิ☠☡꧂")
-                msg.contentMetadata = {'mid': 'u186cf7940c7de8f76a3cbc76405f5f5c'}
+                cl.sendText(msg.to, "ตัวแทนขาย1:இहई╬۞¥ûDï۞╬हई")
+                msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to, "ตัวแทนขาย2:ωู้ʊั₪Ծণറণ১😎ъਙЊъনਹਙ์")
-                msg.contentMetadata = {'mid': 'u5068fff4398601a4b5fa1c9876ea170c'}
+                msg.contentMetadata = {'mid': 'ub573e7ff77d03c5bd9d2eaefbc9a695f'}
                 cl.sendMessage(msg)
 
 #========================================
-            elif msg.text in ["Gu Tar","bot join all","ชิชิ"]:
+            elif msg.text in ["Gu Tar","bot join all","123"]:
 					G = cl.getGroup(msg.to)
 					info = cl.getGroup(msg.to)
 					G.preventJoinByTicket = False
@@ -4750,7 +4735,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                   kt.updateGroup(G)
                   print "Algojo_Ready!"
                   Ticket = kt.reissueGroupTicket(msg.to)
-            elif msg.text in ["บอทออกทั้งหมด","บอทออกทุกกลุ่ม"]:
+            elif msg.text in ["moleh all","บอทออกทุกกลุ่ม"]:
 				gid = cl.getGroupIdsJoined()
 				gid = ki.getGroupIdsJoined()
 				gid = kk.getGroupIdsJoined()
@@ -4789,7 +4774,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
 					ki.sendText(msg.to,"KAMI PAMIT TEMAN👋😂")
 				else:
 					ki.sendText(msg.to,"He declined all invitations")
-            elif msg.text in ["Gu bye","!bye"]:
+            elif msg.text in ["Gu bye","10"]:
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
@@ -4867,7 +4852,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                             print (msg.to,[jj])
                         except:
                             pass
-            elif "!!Phet!!" in msg.text:
+            elif "cok" in msg.text:
                 if msg.toType == 2:
                     print "ok"
                     _name = msg.text.replace("!!Phet!!","")
@@ -4911,7 +4896,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                                 ki.sendText(msg,to,"Group cleanse")
                                 kk.sendText(msg,to,"Group cleanse")
                             pass
-            elif ("#PK " in msg.text):
+            elif ("PK " in msg.text):
 				if msg.from_ in admin:
 					targets = []
 					key = eval(msg.contentMetadata["MENTION"])
@@ -5015,7 +5000,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                        except:
                            kd.sendText(msg.to,"Error")
 
-            elif "Phet@@" in msg.text:
+            elif "cok@@" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
                 for j in xrange(k+1):
@@ -5239,7 +5224,7 @@ http://line.me/ti/p/_SnII2cQTs   ► พี่โจ้
                 except:
                     cl.sendText(msg.to,"[name]\n" + contact.displayName + "\n[mid]\n" + contact.mid + "\n[statusmessage]\n" + contact.statusMessage + "\n[homePicture]\n" + str(cu))
 #=============================================
-            elif msg.text in ["!Sp"]:
+            elif msg.text in ["Sp"]:
                 start = time.time()
                 cl.sendText(msg.to, "Waiting...")
                 elapsed_time = time.time() - start
