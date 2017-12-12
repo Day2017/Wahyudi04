@@ -143,211 +143,211 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-╔═════════════
-║     ✰ =====[WAHYUDI]===== ɮօt ✰ 
-╠═════════════
-║           Owner : ✰ =====[WAHYUDI]===== ✰       
-╠═════════════
-║   ◄]·♦·Menu For Public·♦·[►
-║╔════════════
-║╠[•]Help
-║╠[•]Key
-║╠[•]Mimin
-║╠[•]Creator
-║╠[•]Time
-║╠════════════
-║╠[•]Say....
-║╠[•]Wkwkwk/Wkwk/Wk
-║╠[•]Hehehe/Hehe/He
-║╠[•]Galau
-║╠[•]You
-║╠[•]Hadeuh
-║╠[•]Please
-║╠[•]Haaa
-║╠[•]Lol
-║╠[•]Hmmm/Hmm/Hm
-║╠[•]Welcome
-║╠[•]Woy
-║╠════════════
-║╠[•]Wiki 
-║╠[•]Lyric
-║╠[•]Instagram
-║╠[•]Music
-║╠[•]Youtube
-║╠[•]Vidio
-║╠════════════
-║╠[•]Bc
-║╠[•]Up
-║╠[•]Berapa besar cinta
-║╠[•]Apakah
-║╠[•]Siapakah cewek 
-║╠[•]Siapakah cowok
-║╠[•]Adakah
-║╠[•]Cakepkah
-║╠════════════
-║╠[•]T-eng
-║╠[•]T-japan 
-║╠[•]T-thai
-║╠[•]T-id
-║╚════════════
-║     ✰ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰
-╚═════════════
++-------------
+¦     ? =====[WAHYUDI]===== ??t ? 
+¦-------------
+¦           Owner : ? =====[WAHYUDI]===== ?       
+¦-------------
+¦   ?]·?·Menu For Public·?·[?
+¦+------------
+¦¦[•]Help
+¦¦[•]Key
+¦¦[•]Mimin
+¦¦[•]Creator
+¦¦[•]Time
+¦¦------------
+¦¦[•]Say....
+¦¦[•]Wkwkwk/Wkwk/Wk
+¦¦[•]Hehehe/Hehe/He
+¦¦[•]Galau
+¦¦[•]You
+¦¦[•]Hadeuh
+¦¦[•]Please
+¦¦[•]Haaa
+¦¦[•]Lol
+¦¦[•]Hmmm/Hmm/Hm
+¦¦[•]Welcome
+¦¦[•]Woy
+¦¦------------
+¦¦[•]Wiki 
+¦¦[•]Lyric
+¦¦[•]Instagram
+¦¦[•]Music
+¦¦[•]Youtube
+¦¦[•]Vidio
+¦¦------------
+¦¦[•]Bc
+¦¦[•]Up
+¦¦[•]Berapa besar cinta
+¦¦[•]Apakah
+¦¦[•]Siapakah cewek 
+¦¦[•]Siapakah cowok
+¦¦[•]Adakah
+¦¦[•]Cakepkah
+¦¦------------
+¦¦[•]T-eng
+¦¦[•]T-japan 
+¦¦[•]T-thai
+¦¦[•]T-id
+¦+------------
+¦     ? ? =====[WAHYUDI]===== ??t ? ?
++-------------
 """
 Keyowner ="""
-╔═════════════
-║       ✰ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰ 
-╠═════════════
-║                    Owner : ✰ =====[WAHYUDI]===== ✰       
-╠═════════════
-║   ◄]·♦·Menu For Admin·♦·[►
-║╔════════════
-║╠[•]Kick ...
-║╠[•]Invite (by mid)
-║╠[•]Undang (Invite by kontak)
-║╠[•]Tarik/Jepit (Invite by kontak)
-║╠[•]Adminlist
-║╠[•]Bot Add @
-║╠[•]Spam... (spam on 10 tes)
-║╠[•]Bot? (cek kontak bot)
-║╠[•]Cancel (cncl undngn trtunda)
-║╠[•]clean invites
-║╠[•]clear invites
-║╠════════════
-║╠[•]Message change:...
-║╠[•]Message add:...
-║╠[•]Message
-║╠[•]Comment:...
-║╠[•]Add comment:...
-║╠════════════
-║╠[•]Jam on/off
-║╠[•]Change clock
-║╠[•]Jam Update
-║╠════════════
-║╠[•]Status (cek status room)
-║╠[•]Cctv
-║╠[•]Intip
-║╠[•]Toong
-║╠[•]Nk
-║╠[•]Tajong
-║╠[•]Vkick
-║╠[•]Emak/Abah
-║╠[•]Kill
-║╠[•]Absen/Respon
-║╠════════════
-║╠[•]Ifconfig
-║╠[•]System
-║╠[•]Cpu
-║╠[•]Kernel
-║╠[•]Debug speed
-║╠[•]Bot speed
-║╠[•]Speed respon
-║╠[•]Sp turunin
-║╠[•]Sp naikin
-║╠[•]Turun lagi
-║╠[•]Spbot
-║╠[•]Sp asli
-║╠[•]Speedbot
-║╠[•]Speed
-║╚════════════
-║     ✰ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰
-╚═════════════
++-------------
+¦       ? ? =====[WAHYUDI]===== ??t ? ? 
+¦-------------
+¦                    Owner : ? =====[WAHYUDI]===== ?       
+¦-------------
+¦   ?]·?·Menu For Admin·?·[?
+¦+------------
+¦¦[•]Kick ...
+¦¦[•]Invite (by mid)
+¦¦[•]Undang (Invite by kontak)
+¦¦[•]Tarik/Jepit (Invite by kontak)
+¦¦[•]Adminlist
+¦¦[•]Bot Add @
+¦¦[•]Spam... (spam on 10 tes)
+¦¦[•]Bot? (cek kontak bot)
+¦¦[•]Cancel (cncl undngn trtunda)
+¦¦[•]clean invites
+¦¦[•]clear invites
+¦¦------------
+¦¦[•]Message change:...
+¦¦[•]Message add:...
+¦¦[•]Message
+¦¦[•]Comment:...
+¦¦[•]Add comment:...
+¦¦------------
+¦¦[•]Jam on/off
+¦¦[•]Change clock
+¦¦[•]Jam Update
+¦¦------------
+¦¦[•]Status (cek status room)
+¦¦[•]Cctv
+¦¦[•]Intip
+¦¦[•]Toong
+¦¦[•]Nk
+¦¦[•]Tajong
+¦¦[•]Vkick
+¦¦[•]Emak/Abah
+¦¦[•]Kill
+¦¦[•]Absen/Respon
+¦¦------------
+¦¦[•]Ifconfig
+¦¦[•]System
+¦¦[•]Cpu
+¦¦[•]Kernel
+¦¦[•]Debug speed
+¦¦[•]Bot speed
+¦¦[•]Speed respon
+¦¦[•]Sp turunin
+¦¦[•]Sp naikin
+¦¦[•]Turun lagi
+¦¦[•]Spbot
+¦¦[•]Sp asli
+¦¦[•]Speedbot
+¦¦[•]Speed
+¦+------------
+¦     ? ? =====[WAHYUDI]===== ??t ? ?
++-------------
 """
 Setgroup ="""
-╔═════════════
-║       ✰ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰ 
-╠═════════════
-║                    Owner : ✰ =====[WAHYUDI]===== ✰       
-╠═════════════
-║   ◄]·♦·Menu For Admin·♦·[►
-║╔════════════
-║╠[•]Cancel
-║╠[•]Buka qr/Open qr
-║╠[•]link open
-║╠[•]Tutup qr/Close qr
-║╠[•]link close
-║╠[•]Rejectall (reject semua invite)
-║╠[•]Protect:hight/low
-║╠[•]Auto blockqr:off/on
-║╠[•]Namelock:on/off
-║╠[•]Blockinvite:on/off
-║╠[•]Joinn on/off (kick protect join)
-║╠[•]Cancel on/off(cncl all undngan)
-║╠[•]Qr on/off (protect qr)
-║╠[•]Contact On/off
-║╠[•]Join on/off (auto join bot)
-║╠[•]Gcancel:on/off (invite grup)
-║╠[•]Leave on/off
-║╠[•]Share on/off
-║╠[•]Add on/off
-║╠[•]Cancelall (canccel all invite)
-║╠[•]Comment off/on
-║╠[•]Backup:on/off
-║╠[•]Mode on
-║╠════════════
-║╠[•]Info Group
-║╠[•]ginfo
-║╠[•]Group id
-║╠[•]TL:....
-║╠[•]Gn
-║╠[•]LG
-║╠[•]LG2
-║╠[•]group list
-║╠════════════
-║╠[•]My mid
-║╠[•]Mid Bot
-║╠[•]Bot restart
-║╠[•]Turn off bots
-║╠[•]Allbio: (ganti bio stat bot)
-║╠[•]Myname: (ganti nama bot)
-║╠════════════
-║╠[•]Banlist
-║╠[•]Cek ban
-║╠[•]Kill ban
-║╠[•]Blacklist @ 
-║╠[•]Banned @
-║╠[•]Mid @"
-║╠[•]Unban @
-║╠[•]Ban
-║╠[•]Unban
-║╠════════════
-║╠[•]Steal group pict
-║╠[•]Steal cover @
-║╠[•]Midpict:..
-║╠[•]Steal pict 
-║╠[•]Steal bio
-║╠[•]Steal mid
-║╠[•]Steal contact
-║╠[•]Mimic on/off
-║╠[•]Targetlist
-║╠[•]Mimic target
-║╠[•]Target @
-║╠[•]Del target @
-║╠[•]copy @
-║╠[•]Backup
-║╠════════════
-║╠[•]Spamcontact @
-║╠[•]GBc
-║╠[•]Pm cast
-║╠[•]Bot like
-║╠════════════
-║╠[•]One piece
-║╠[•]Kabur all
-║╠[•]Kabur
-║╠[•]Bot kadieu
-║╠[•]Asupka:
-║╠[•]Invite me
-║╠════════════
-║╠[•]Remove all chat
-║╠[•]Admin add @ (by tag)
-║╠[•]Admin remove @
-║╠[•]Cleanse
-║╠[•]Ready op
-║╠[•]Greet
-║╚════════════
-║👑Hanya Utk Owner/Admin👑
-╠═════════════
-║     ✰ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰
-╚═════════════
++-------------
+¦       ? ? =====[WAHYUDI]===== ??t ? ? 
+¦-------------
+¦                    Owner : ? =====[WAHYUDI]===== ?       
+¦-------------
+¦   ?]·?·Menu For Admin·?·[?
+¦+------------
+¦¦[•]Cancel
+¦¦[•]Buka qr/Open qr
+¦¦[•]link open
+¦¦[•]Tutup qr/Close qr
+¦¦[•]link close
+¦¦[•]Rejectall (reject semua invite)
+¦¦[•]Protect:hight/low
+¦¦[•]Auto blockqr:off/on
+¦¦[•]Namelock:on/off
+¦¦[•]Blockinvite:on/off
+¦¦[•]Joinn on/off (kick protect join)
+¦¦[•]Cancel on/off(cncl all undngan)
+¦¦[•]Qr on/off (protect qr)
+¦¦[•]Contact On/off
+¦¦[•]Join on/off (auto join bot)
+¦¦[•]Gcancel:on/off (invite grup)
+¦¦[•]Leave on/off
+¦¦[•]Share on/off
+¦¦[•]Add on/off
+¦¦[•]Cancelall (canccel all invite)
+¦¦[•]Comment off/on
+¦¦[•]Backup:on/off
+¦¦[•]Mode on
+¦¦------------
+¦¦[•]Info Group
+¦¦[•]ginfo
+¦¦[•]Group id
+¦¦[•]TL:....
+¦¦[•]Gn
+¦¦[•]LG
+¦¦[•]LG2
+¦¦[•]group list
+¦¦------------
+¦¦[•]My mid
+¦¦[•]Mid Bot
+¦¦[•]Bot restart
+¦¦[•]Turn off bots
+¦¦[•]Allbio: (ganti bio stat bot)
+¦¦[•]Myname: (ganti nama bot)
+¦¦------------
+¦¦[•]Banlist
+¦¦[•]Cek ban
+¦¦[•]Kill ban
+¦¦[•]Blacklist @ 
+¦¦[•]Banned @
+¦¦[•]Mid @"
+¦¦[•]Unban @
+¦¦[•]Ban
+¦¦[•]Unban
+¦¦------------
+¦¦[•]Steal group pict
+¦¦[•]Steal cover @
+¦¦[•]Midpict:..
+¦¦[•]Steal pict 
+¦¦[•]Steal bio
+¦¦[•]Steal mid
+¦¦[•]Steal contact
+¦¦[•]Mimic on/off
+¦¦[•]Targetlist
+¦¦[•]Mimic target
+¦¦[•]Target @
+¦¦[•]Del target @
+¦¦[•]copy @
+¦¦[•]Backup
+¦¦------------
+¦¦[•]Spamcontact @
+¦¦[•]GBc
+¦¦[•]Pm cast
+¦¦[•]Bot like
+¦¦------------
+¦¦[•]moleh
+¦¦[•]Kabur all
+¦¦[•]Kabur
+¦¦[•]Bot kadieu
+¦¦[•]Asupka:
+¦¦[•]Invite me
+¦¦------------
+¦¦[•]Remove all chat
+¦¦[•]Admin add @ (by tag)
+¦¦[•]Admin remove @
+¦¦[•]Cleanse
+¦¦[•]Ready op
+¦¦[•]Greet
+¦+------------
+¦??Hanya Utk Owner/Admin??
+¦-------------
+¦     ? ? =====[WAHYUDI]===== ??t ? ?
++-------------
 """
 KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
 DEF=[ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
@@ -387,7 +387,7 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid]
-induk=[mid]
+induk=["u6b34b703cbc5fc83cd1e5b6832a05352"]
 Creator=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352"]
 admin=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352","ub573e7ff77d03c5bd9d2eaefbc9a695f",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid] #Krisna,kris,
 owner=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352"]
@@ -396,24 +396,24 @@ wait = {
     'autoJoin':True,
     'autoCancel':{"on":True,"members":1},
     'leaveRoom':True,
-    'timeline':True,
-    'autoAdd':True,
-    'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
-≫ ✰ =====[WAHYUDI]===== ɮօt ✰ Bot Protect ≪
->>✰ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰<<
+    'timeline':False,
+    'autoAdd':False,
+    'message':"""?erima Kasih Sudah Menambahkan Aku Jadi Teman
+» ? =====[WAHYUDI]===== ??t ? Bot Protect «
+>>? ? =====[WAHYUDI]===== ??t ? ?<<
 
-≫ ✰ =====[WAHYUDI]===== ɮօt ✰ ≪
-≫ SelfBot ≪
+» ? =====[WAHYUDI]===== ??t ? «
+» SelfBot «
 
-ṡȗƿƿȏяṭєԀ ɞʏ:
+????????? ??:
   
-☆ ✰ =====[WAHYUDI]===== ɮօt ✰ ☆
-✰ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰
-☆ ✰ =====[WAHYUDI]===== ɮօt ✰ ☆
+? ? =====[WAHYUDI]===== ??t ? ?
+? ? =====[WAHYUDI]===== ??t ? ?
+? ? =====[WAHYUDI]===== ??t ? ?
 
-Idline: http://line.me/ti/p/GkwfNjoPDH""",
+Idline: http://line.me/ti/p/yudi_std02""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ tɛǟʍ ✰ =====[WAHYUDI]===== ɮօt ✰ ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by yudi ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««",
+    "comment":"??aµt?l??€ By??\n?º°°°?? t?a? ? =====[WAHYUDI]===== ??t ? ??º°°°?(^?^)\naµt?l??€ by yudi ??? »»» http://line.me/ti/p/yudi_std02 «««",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -941,8 +941,8 @@ def NOTIFIED_READ_MESSAGE(op):
             if Name in wait2['readMember'][op.param1]:
                 pass
             else:
-                wait2['readMember'][op.param1] += "\n・" + Name + datetime.now().strftime(' [%d - %H:%M:%S]')
-                wait2['ROM'][op.param1][op.param2] = "・" + Name + " ツ"
+                wait2['readMember'][op.param1] += "\n·" + Name + datetime.now().strftime(' [%d - %H:%M:%S]')
+                wait2['ROM'][op.param1][op.param2] = "·" + Name + " ?"
         else:
             pass
     except:
@@ -970,7 +970,7 @@ def RECEIVE_MESSAGE(op):
         return
 
 def cms(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
-    tex = ["+","@","/",">",";","^","%","$","＾","サテラ:","サテラ:","サテラ：","サテラ："] 
+    tex = ["+","@","/",">",";","^","%","$","^","???:","???:","???:","???:"] 
     for tex in tex:
       for command in commands:
         if string ==command:
@@ -994,8 +994,8 @@ def bot(op):
                 if Name in wait2['readMember'][op.param1]:
                     pass
                 else:
-                    wait2['readMember'][op.param1] += '\n ☞ ' + Name
-                    wait2['ROM'][op.param1][op.param2] = '☞ ' + Name
+                    wait2['readMember'][op.param1] += '\n ? ' + Name
+                    wait2['ROM'][op.param1][op.param2] = '? ' + Name
             else:
                 pass
               
@@ -1007,8 +1007,8 @@ def bot(op):
                     if Name in wait2['readMember'][op.param1]:
                         pass
                     else:
-                        wait2['readMember'][op.param1] += "\n・ " + Name + datetime.today().strftime(' [%d - %H:%M:%S]')
-                        wait2['ROM'][op.param1][op.param2] = "・ " + Name
+                        wait2['readMember'][op.param1] += "\n· " + Name + datetime.today().strftime(' [%d - %H:%M:%S]')
+                        wait2['ROM'][op.param1][op.param2] = "· " + Name
                         wait2['setTime'][msg.to] = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
                 else:
                     pass
@@ -1115,11 +1115,11 @@ def bot(op):
             else:
               try:
                 random.choice(KAC).cancelGroupInvitation(op.param1, gMembMids)
-                random.choice(KAC).sendText(op.param1, "Mau Ngundang Siapa Ka?\nKk Bukan Admin\nJadi Aku Cancel😛")
+                random.choice(KAC).sendText(op.param1, "Mau Ngundang Siapa Ka?\nKk Bukan Admin\nJadi Aku Cancel??")
                 random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
               except:
                 random.choice(KAC).cancelGroupInvitation(op.param1, gMembMids)
-                random.choice(KAC).sendText(op.param1, "Mau Ngundang Siapa Ka?\nKk Bukan Admin\nJadi Aku Cancel😛")
+                random.choice(KAC).sendText(op.param1, "Mau Ngundang Siapa Ka?\nKk Bukan Admin\nJadi Aku Cancel??")
                 random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
         #------Cancel Invite User Finish------#
 #--------------------END_OF_OPERATION--------------------
@@ -3208,7 +3208,7 @@ def bot(op):
               elif op.param2 in owner:
                 pass
               else:
-                random.choice(KAC).sendText(op.param1, "Jangan di cancel woy...!!!\nAdmin Bukan,Owner Juga Bukan\Kick Ah 😛")
+                random.choice(KAC).sendText(op.param1, "Jangan di cancel woy...!!!\nAdmin Bukan,Owner Juga Bukan\Kick Ah ??")
                 random.choice(KAC).kickoutFromGroup(op.param1,[op.param2]) 
 #------------------NOTIFIED_KICKOUT_FROM_GROUP-----------------
         if op.type == 19:
@@ -4424,12 +4424,12 @@ def bot(op):
           if op.param2 in Bots:
             return
           ginfo = cl.getGroup(op.param1)
-          random.choice(KAC).sendText(op.param1, "|============================|\n Selamat Datang Di  " + str(ginfo.name) + "\n|============================|\n" + " Founder =>>> " + str(ginfo.name) + " :\n" + ginfo.creator.displayName + "\n|============================|\n" + " 😊Semoga Betah Kak 😘 \n|============================|\n No Baper,No nakal,No Ngeyel ya..!! \n|============================|")
+          random.choice(KAC).sendText(op.param1, "|============================|\n Selamat Datang Di  " + str(ginfo.name) + "\n|============================|\n" + " Founder =>>> " + str(ginfo.name) + " :\n" + ginfo.creator.displayName + "\n|============================|\n" + " ??Semoga Betah Kak ?? \n|============================|\n No Baper,No nakal,No Ngeyel ya..!! \n|============================|")
           print "MEMBER HAS JOIN THE GROUP"
         if op.type == 15:
           if op.param2 in Bots:
              return
-          random.choice(KAC).sendText(op.param1, "|============================|\n Baper Tuh Orang :v \n|============================|\n Belum di Anu Kayanya 😊 \n|============================|")
+          random.choice(KAC).sendText(op.param1, "|============================|\n Baper Tuh Orang :v \n|============================|\n Belum di Anu Kayanya ?? \n|============================|")
           print "MEMBER HAS LEFT THE GROUP"
 #--------------------------------------------------------
         if op.type == 26:
@@ -4448,7 +4448,7 @@ def bot(op):
                                  break
                              elif invite in wait["blacklist"]:
                                  ki.sendText(msg.to,"Sorry, " + _name + " On Blacklist")
-                                 ki.sendText(msg.to,"Call my owner to use command !, \n➡Unban: " + invite)
+                                 ki.sendText(msg.to,"Call my owner to use command !, \n?Unban: " + invite)
                                  break                             
                              else:
                                  targets.append(invite)
@@ -4459,7 +4459,7 @@ def bot(op):
                                  try:
                                      cl.findAndAddContactsByMid(target)
                                      cl.inviteIntoGroup(msg.to,[target])
-                                     cl.sendText(msg.to,"Done Invite : \n➡" + _name)
+                                     cl.sendText(msg.to,"Done Invite : \n?" + _name)
                                      wait["winvite"] = False
                                      break
                                  except:
@@ -4488,7 +4488,7 @@ def bot(op):
                                  break
                              elif invite in wait["blacklist"]:
                                  random.choice(KAC).sendText(msg.to,"Sorry, " + _name + " On Blacklist")
-                                 random.choice(KAC).sendText(msg.to,"Call my owner to use command !, \n➡Unban: " + invite)
+                                 random.choice(KAC).sendText(msg.to,"Call my owner to use command !, \n?Unban: " + invite)
                                  break                             
                              else:
                                  targets.append(invite)
@@ -4499,7 +4499,7 @@ def bot(op):
                                  try:
                                      random.choice(KAC).findAndAddContactsByMid(target)
                                      random.choice(KAC).inviteIntoGroup(msg.to,[target])
-                                     random.choice(KAC).sendText(msg.to,"Selesai di Invite : \n➡" + _name)
+                                     random.choice(KAC).sendText(msg.to,"Selesai di Invite : \n?" + _name)
                                      wait["winvite2"] = False
                                      break
                                  except:
@@ -4619,7 +4619,7 @@ def bot(op):
                   cl.sendText(msg.to,"The stafflist is empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "||Admin ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰||\n=====================\n"
+                  mc = "||Admin ? t?a? c????-a??? ??t ?||\n=====================\n"
                   for mi_d in admin:
                       mc += "••>" +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc)
@@ -5450,7 +5450,7 @@ def bot(op):
                         random.choice(KAC).cancelGroupInvitation(msg.to, gInviMids)
                     else:
                         if wait["lang"] == "JP":
-                            cl.sendText(msg.to,"No one is inviting。")
+                            cl.sendText(msg.to,"No one is inviting?")
                         else:
                             cl.sendText(msg.to,"Sorry, nobody absent")
                 else:
@@ -5523,9 +5523,9 @@ def bot(op):
             elif 'Group list' in msg.text.lower():
               if msg.from_ in admin:
                 gs = cl.getGroupIdsJoined()
-                L = "『 Groups List 』\n"
+                L = "? Groups List ?\n"
                 for i in gs:
-                    L += "[≫] %s \n" % (cl.getGroup(i).name + " | [ " + str(len (cl.getGroup(i).members)) + " ]")
+                    L += "[»] %s \n" % (cl.getGroup(i).name + " | [ " + str(len (cl.getGroup(i).members)) + " ]")
                 cl.sendText(msg.to, L + "\nTotal Group : [ " + str(len(gs)) +" ]")
  
             elif "Invite me" in msg.text:
@@ -5628,7 +5628,7 @@ def bot(op):
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"All Invites has been Rejected")
                 else:
-                    cl.sendText(msg.to,"拒绝了全部的邀请。")
+                    cl.sendText(msg.to,"?????????")
                 if wait["Protectgr"] == True:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Protect QR On")
@@ -5685,23 +5685,23 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"Already on")
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"ƬƲƦƝЄƊ ƠƝ.")
+                    cl.sendText(msg.to,"?????? O?.")
                 else:
-                    cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƝ")
+                    cl.sendText(msg.to,"??????? O?")
                     wait['pname'][msg.to] = True
                     wait['pname'][msg.to] = cl.getGroup(msg.to).name
               if msg.from_ in admin:
 				gid = msg.to
 				autocancel[gid] = "poni"
-				cl.sendText(msg.to,"ƤƦƠƬЄƇƬ ƖƝƔƖƬƛƬƖƠƝ ƠƝ")
+				cl.sendText(msg.to,"??O???? ????????O? O?")
 				if msg.to in protection:
-					cl.sendText(msg.to,"ᴀʟʀᴇᴀᴅʏ Protect ᴏɴ")
+					cl.sendText(msg.to,"??????? Protect ??")
 				else:
 					wait["pnharfbot"][msg.to] = cl.getGroup(msg.to).name
 					f=codecs.open('pnharfbot.json','w','utf-8')
 					json.dump(wait["pnharfbot"], f, sort_keys=True, indent=4,ensure_ascii=False)
 					protection.append(msg.to)
-					cl.sendText(msg.to,"Protect ᴛᴜʀɴᴇᴅ ᴏɴ")
+					cl.sendText(msg.to,"Protect ?????? ??")
               if msg.from_ in admin:
                 if wait["Protectcancel"] == True:
                     if wait["lang"] == "JP":
@@ -5773,10 +5773,10 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"turned into low protection\n\n"+ datetime.today().strftime('%H:%M:%S'))
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"ƬƲƦƝ ƠƑƑ.")
+                    cl.sendText(msg.to,"???? Oƒƒ.")
                     del wait['pname'][msg.to]
                 else:
-                    cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƑƑ")
+                    cl.sendText(msg.to,"??????? Oƒƒ")
                 if wait["Protectcancel"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Yang Cancel Undangan Tidak Kami Kick")
@@ -5793,7 +5793,7 @@ def bot(op):
               if msg.from_ in admin:
 				try:
 					del autocancel[msg.to]
-					cl.sendText(msg.to,"ƤƦƠƬЄƇƬ ƖƝƔƖƬƛƬƖƠƝ ƠƑƑ")
+					cl.sendText(msg.to,"??O???? ????????O? Oƒƒ")
 				except:
 					pass
 	
@@ -5801,7 +5801,7 @@ def bot(op):
 				try:
 					if msg.from_ in admin:
 						protection.remove(msg.to)
-						cl.sendText(msg.to,"Protect ᴛᴜʀɴᴇᴅ ᴏғғ")
+						cl.sendText(msg.to,"Protect ?????? ???")
 					else:
 						cl.sendText(msg.to,"No have access Protect")
 				except:
@@ -5890,48 +5890,48 @@ def bot(op):
             elif "Namelock:on" in msg.text:
               if msg.from_ in admin:
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"ƬƲƦƝЄƊ ƠƝ.")
+                    cl.sendText(msg.to,"?????? O?.")
                 else:
-                    cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƝ")
+                    cl.sendText(msg.to,"??????? O?")
                     wait['pname'][msg.to] = True
                     wait['pro_name'][msg.to] = cl.getGroup(msg.to).name
             elif "Namelock:off" in msg.text:
               if msg.from_ in admin:
                 if msg.to in wait['pname']:
-                    cl.sendText(msg.to,"ƬƲƦƝ ƠƑƑ.")
+                    cl.sendText(msg.to,"???? Oƒƒ.")
                     del wait['pname'][msg.to]
                 else:
-                    cl.sendText(msg.to,"ƛԼƦЄƛƊƳ ƠƑƑ")
+                    cl.sendText(msg.to,"??????? Oƒƒ")
 					
             elif "Blockinvite:on" == msg.text:
               if msg.from_ in admin:
 				gid = msg.to
 				autocancel[gid] = "poni"
-				cl.sendText(msg.to,"ƤƦƠƬЄƇƬ ƖƝƔƖƬƛƬƖƠƝ ƠƝ")
+				cl.sendText(msg.to,"??O???? ????????O? O?")
             elif "Blockinvite:off" == msg.text:
               if msg.from_ in admin:
 				try:
 					del autocancel[msg.to]
-					cl.sendText(msg.to,"ƤƦƠƬЄƇƬ ƖƝƔƖƬƛƬƖƠƝ ƠƑƑ")
+					cl.sendText(msg.to,"??O???? ????????O? Oƒƒ")
 				except:
 					pass
 					
             elif "Protect on" == msg.text:
 				if msg.to in protection:
-					cl.sendText(msg.to,"Protect ᴀʟʀᴇᴀᴅʏ ᴏɴ")
+					cl.sendText(msg.to,"Protect ??????? ??")
 				else:
 					wait["pnharfbot"][msg.to] = cl.getGroup(msg.to).name
 					f=codecs.open('pnharfbot.json','w','utf-8')
 					json.dump(wait["pnharfbot"], f, sort_keys=True, indent=4,ensure_ascii=False)
 					protection.append(msg.to)
-					cl.sendText(msg.to,"Protect ᴛᴜʀɴᴇᴅ ᴏɴ")
+					cl.sendText(msg.to,"Protect ?????? ??")
             elif "Protect off" == msg.text:
 				try:
 					if msg.from_ in admin:
 						protection.remove(msg.to)
-						cl.sendText(msg.to,"Protect ᴛᴜʀɴᴇᴅ ᴏғғ")
+						cl.sendText(msg.to,"Protect ?????? ???")
 					else:
-						cl.sendText(msg.to,"Protect ᴀʟʀᴇᴀᴅʏ ᴏғғ")
+						cl.sendText(msg.to,"Protect ??????? ???")
 				except:
 					pass
  #================================================================           
@@ -6131,14 +6131,14 @@ def bot(op):
                         if wait["lang"] == "JP":
                             cl.sendText(msg.to,"Invitation refused turned off\nTo turn on please specify the number of people and send")
                         else:
-                            cl.sendText(msg.to,"å…³äº†é‚€è¯·æ‹’ç»�ã€‚è¦�æ—¶å¼€è¯·æŒ‡å®šäººæ•°å�‘é€�")
+                            cl.sendText(msg.to,"å…³äº†é‚€è¯·æ‹’ç»?ã€‚è¦?æ—¶å¼€è¯·æŒ‡å®šäººæ•°å?‘é€?")
                     else:
                         num =  int(strnum)
                         wait["autoCancel"]["on"] = True
                         if wait["lang"] == "JP":
                             cl.sendText(msg.to,strnum + "The group of people and below decided to automatically refuse invitation")
                         else:
-                            cl.sendText(msg.to,strnum + "ä½¿äººä»¥ä¸‹çš„å°�ç»„ç���¨è‡ªåŠ¨é‚€è¯·æ���’ç»�")
+                            cl.sendText(msg.to,strnum + "ä½¿äººä»¥ä¸‹çš„å°?ç»„ç???¨è‡ªåŠ¨é‚€è¯·æ???’ç»?")
                 except:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Value is wrong")
@@ -6156,7 +6156,7 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
-                        cl.sendText(msg.to,"è¦�äº†å¼€ã€‚")
+                        cl.sendText(msg.to,"è¦?äº†å¼€ã€‚")
             elif msg.text in ["Leave off","Auto leave:off"]:
               if msg.from_ in admin:
                 if wait["leaveRoom"] == False:
@@ -6182,7 +6182,7 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
-                        cl.sendText(msg.to,"è¦�äº†å¼€ã€‚")
+                        cl.sendText(msg.to,"è¦?äº†å¼€ã€‚")
             elif msg.text in ["Share off","Share off"]:
               if msg.from_ in admin:
                 if wait["timeline"] == False:
@@ -6195,10 +6195,10 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
-                        cl.sendText(msg.to,"è¦�äº†å…³æ–­ã€‚")
+                        cl.sendText(msg.to,"è¦?äº†å…³æ–­ã€‚")
             elif msg.text in ["menu","status"]:
               if msg.from_ in admin:
-                md = "⭐Status Proteksi⭐\n*============*\n"
+                md = "?Status Proteksi?\n*============*\n"
                 if wait["Protectgr"] == True: md+="[•]Protect QR [On]\n"
                 else: md+="[•]Protect QR [Off]\n"
                 if wait["Protectcancl"] == True: md+="[•]Protect Invite [On]\n"
@@ -6225,7 +6225,7 @@ def bot(op):
                 else: md+="[•]Protect Cancel [Off]\n"
                 if wait["protectionOn"] == True: md+="[•]Protection : hight\n"+ datetime.today().strftime('%H:%M:%S')
                 else:md+="[•]Protection : low\n"+ datetime.today().strftime('%H:%M:%S')
-                "\n*============*\n⭐✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰⭐\n*============*"
+                "\n*============*\n?? ???+? ? ¥ûDÏ ? ?+??? ??\n*============*"
                 cl.sendText(msg.to,md)
             elif "Time" in msg.text:
               if msg.from_ in admin:
@@ -6242,7 +6242,7 @@ def bot(op):
                     if wait["lang"] == "JP":
                         mg = "The following is the target album"
                     else:
-                        mg = "ä»¥ä¸‹æ˜¯å¯¹è±¡çš„ç���¸å†Œ"
+                        mg = "ä»¥ä¸‹æ˜¯å¯¹è±¡çš„ç???¸å†Œ"
                     for y in album["result"]["items"]:
                         if "photoCount" in y:
                             mg += str(y["title"]) + ":" + str(y["photoCount"]) + "sheet\n"
@@ -6293,7 +6293,7 @@ def bot(op):
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"All invitations have been refused")
                 else:
-                    cl.sendText(msg.to,"æ‹’ç»�äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
+                    cl.sendText(msg.to,"æ‹’ç»?äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
             elif "Album removeat’" in msg.text:
                 gid = msg.text.replace("Album removeat’","")
                 albums = cl.getAlbum(gid)["result"]["items"]
@@ -6318,7 +6318,7 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Done")
                     else:
-                        cl.sendText(msg.to,"è¦�äº†å¼€ã€‚")
+                        cl.sendText(msg.to,"è¦?äº†å¼€ã€‚")
             elif msg.text in ["Add off","Auto add:off"]:
               if msg.from_ in admin:
                 if wait["autoAdd"] == False:
@@ -6331,7 +6331,7 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
-                        cl.sendText(msg.to,"è¦�äº†å…³æ–­ã€‚")
+                        cl.sendText(msg.to,"è¦?äº†å…³æ–­ã€‚")
             elif "Message change: " in msg.text:
                 wait["message"] = msg.text.replace("Message change: ","")
                 cl.sendText(msg.to,"message changed")
@@ -6341,7 +6341,7 @@ def bot(op):
                     cl.sendText(msg.to,"message changed")
                 else:
                     cl.sendText(msg.to,"doneã€‚")
-            elif msg.text in ["Message","è‡ªå‹•è¿½åŠ å•�å€™èªžç¢ºèª�"]:
+            elif msg.text in ["Message","è‡ªå‹•è¿½åŠ å•?å€™èªžç¢ºèª?"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"message change to\n\n" + wait["message"])
                 else:
@@ -6395,7 +6395,7 @@ def bot(op):
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"All Invites has been Rejected")
                 else:
-                    cl.sendText(msg.to,"拒绝了全部的邀请。")
+                    cl.sendText(msg.to,"?????????")
 #---------------------Sc invite owner ke group------
             elif "Asupka: " in msg.text:
               if msg.from_ in owner:
@@ -6409,7 +6409,7 @@ def bot(op):
                   except:
                     cl.sendText(msg.to,"Mungkin saya tidak di dalaam grup itu")
 #--------===---====--------------
-            elif msg.text in ["ã‚³ãƒ¡ãƒ³ãƒˆ:ã‚ªãƒ³","Comment on","Comment:on","è‡ªå‹•é¦–é �ç•™è¨€ï¼šé–‹"]:
+            elif msg.text in ["ã‚³ãƒ¡ãƒ³ãƒˆ:ã‚ªãƒ³","Comment on","Comment:on","è‡ªå‹•é¦–é ?ç•™è¨€ï¼šé–‹"]:
               if msg.from_ in admin:
                 if wait["commentOn"] == True:
                     if wait["lang"] == "JP":
@@ -6421,8 +6421,8 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
-                        cl.sendText(msg.to,"è¦�äº†å¼€ã€‚")
-            elif msg.text in ["ã‚³ãƒ¡ãƒ³ãƒˆ:ã‚ªãƒ•","Comment off","comment off","è‡ªå‹•é¦–é �ç•™è¨€ï¼šé—œ"]:
+                        cl.sendText(msg.to,"è¦?äº†å¼€ã€‚")
+            elif msg.text in ["ã‚³ãƒ¡ãƒ³ãƒˆ:ã‚ªãƒ•","Comment off","comment off","è‡ªå‹•é¦–é ?ç•™è¨€ï¼šé—œ"]:
                 if wait["commentOn"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
@@ -6433,8 +6433,8 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
-                        cl.sendText(msg.to,"è¦�äº†å…³æ–­ã€‚")
-            elif msg.text in ["Comment","ç•™è¨€ç¢ºèª�"]:
+                        cl.sendText(msg.to,"è¦?äº†å…³æ–­ã€‚")
+            elif msg.text in ["Comment","ç•™è¨€ç¢ºèª?"]:
                 cl.sendText(msg.to,"message changed to\n\n" + str(wait["comment"]))
             elif msg.text in ["Gurl"]:
               if msg.from_ in admin:
@@ -7160,9 +7160,9 @@ def bot(op):
                                 #print rom
                                 chiya += rom[1] + "\n"
 
-                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ✰Ќriֆ✰ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ????+? ? ¥ûDÏ ? ?+????||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        cl.sendText(msg.to, "Ketik Cctv dulu Koplak\nBaru Ketik Toong\nDASAR PIKUN ♪")
+                        cl.sendText(msg.to, "Ketik Cctv dulu Koplak\nBaru Ketik Toong\nDASAR PIKUN ?")
                         
             elif msg.text == "Cctv":
               if msg.from_ in admin:
@@ -7189,7 +7189,7 @@ def bot(op):
                             for rom in wait2["ROM"][msg.to].items():
                                 print "[Command] Check"
                                 chiya += rom[1] + "\n"
-                        cl.sendText(msg.to, "✔ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰\nRead : %s\n\n✖ Sider :\n%s\nPoint creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "? ? ???+? ? ¥ûDÏ ? ?+??? ?\nRead : %s\n\n? Sider :\n%s\nPoint creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                         try:
                             del wait2['readPoint'][msg.to]
                             del wait2['readMember'][msg.to]
@@ -7248,7 +7248,7 @@ def bot(op):
                                 cl.sendText(msg.to,"Group cleanse")
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["1","Kr asup"]: #Panggil Semua Bot
+            elif msg.text in ["1","hay"]: #Panggil Semua Bot
               if msg.from_ in owner:
                 G = cl.getGroup(msg.to)
                 ginfo = cl.getGroup(msg.to)
@@ -7655,7 +7655,7 @@ def bot(op):
                         matched_list+=filter(lambda str: str == tag, gMembMids)
                     if matched_list == []:
                         random.choice(KAC).sendText(msg.to,"Selamat tinggal")
-                        random.choice(KAC).sendText(msg.to,"Jangan masuk lagi􀨁􀆷devil smile􏿿")
+                        random.choice(KAC).sendText(msg.to,"Jangan masuk lagi????devil smile??")
                         return
                     for jj in matched_list:
                         try:
@@ -7946,152 +7946,152 @@ def bot(op):
         #-------------Fungsi Spam Start---------------------#
             elif msg.text in ["Up","up","Up Chat","Up chat","up chat","Upchat","upchat"]:
               if msg.from_ in admin:
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k1.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k2.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k5.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k10.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k13.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                k15.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                cl.sendText(msg.to,"P ????squared up!??")
+                ki.sendText(msg.to,"P ????squared up!??")
+                kk.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k1.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k2.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k5.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k10.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k13.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
+                k15.sendText(msg.to,"P ????squared up!??")
         #-------------Fungsi Spam Finish---------------------#
 #----------------------------[Spam To Contact]----------------------------#WORK 
             elif "Spamcontact @" in msg.text:
@@ -8328,14 +8328,14 @@ def bot(op):
                 kk.sendText(msg.to,jawaban)		                
             elif "Siapakah cewek " in msg.text:
                 tanya = msg.text.replace("Siapakah cewek ","")
-                jawab = ("Maryati􀜁�","Ida􀜁�","Uke􀜁�","Alyn􀜁�","Ikka􀜁�","Yunikey􀜁�","Qwenie􀜁�","Gendis􀜁�","Aryani􀜁�","Nindy􀜁�","Wina􀜁�","Dewi􀜁�","Ifah􀜁�")
+                jawab = ("Maryati???","Ida???","Uke???","Alyn???","Ikka???","Yunikey???","Qwenie???","Gendis???","Aryani???","Nindy???","Wina???","Dewi???","Ifah???")
                 jawaban = random.choice(jawab)
                 k7.sendText(msg.to,jawaban)
                 k7.sendText(msg.to,jawaban)
                 k7.sendText(msg.to,jawaban)
             elif "Siapakah cowok " in msg.text:
                 tanya = msg.text.replace("Siapakah cowok ","")
-                jawab = ("Arjun􀜁�","Ahmad khan􀜁�","Hajir􀜁�","Dd􀜁�","Indra􀜁�","Jeong􀜁�","Yogi􀜁�","Ary􀜁�","Ucil􀜁�")
+                jawab = ("Arjun???","Ahmad khan???","Hajir???","Dd???","Indra???","Jeong???","Yogi???","Ary???","Ucil???")
                 jawaban = random.choice(jawab)
                 k5.sendText(msg.to,jawaban)
                 k5.sendText(msg.to,jawaban)
@@ -8396,7 +8396,7 @@ def bot(op):
                 h = ""
                 for i in gids:
                   #####gn = cl.getGroup(i).name
-                  h += "[•]%s Member\n" % (cl.getGroup(i).name   +"👉"+str(len(cl.getGroup(i).members)))
+                  h += "[•]%s Member\n" % (cl.getGroup(i).name   +"??"+str(len(cl.getGroup(i).members)))
                   cl.sendText(msg.to,"=======[List Group]======\n"+ h +"Total Group :"+str(len(gids)))
                 
             elif msg.text in ["LG2"]: #Melihat List Group + ID Groupnya (Gunanya Untuk Perintah InviteMeTo:)
@@ -8481,9 +8481,9 @@ def bot(op):
 						cl.sendText(manusia,(bctxt +"\n\n\nbroadcasted by:" + cl.getContact(msg.from_).displayName))
   #-----------------End-----------
             elif msg.text in ["hai","Hai"]:
-                ki.sendText(msg.to,"Hai Every Body 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Hai Every Body 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Hai Every Body 􀜁􀅔Har Har􏿿")
+                ki.sendText(msg.to,"Hai Every Body ????Har Har??")
+                kk.sendText(msg.to,"Hai Every Body ????Har Har??")
+                kc.sendText(msg.to,"Hai Every Body ????Har Har??")
 
             elif msg.text in ["nah","Nah"]:
                 ki.sendText(msg.to,"Kan")
@@ -8495,40 +8495,40 @@ def bot(op):
                 kk.sendText(msg.to,"Jangan nakal ok!")
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping"]:
-                ki.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
+                ki.sendText(msg.to,"PONG ????double thumbs up??????Har Har??")
+                kk.sendText(msg.to,"PONG ????double thumbs up??????Har Har??")
+                kc.sendText(msg.to,"PONG ????double thumbs up??????Har Har??")
 #-----------------------------------------------
 
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Absen","Respon"]:
               if msg.from_ in admin:
-                kk.sendText(msg.to,"★")
-                ki.sendText(msg.to,"★★")
-                cl.sendText(msg.to,"★★★")
-                kc.sendText(msg.to,"★★★★")
-                ks.sendText(msg.to,"★★★★★")
-                k1.sendText(msg.to,"★★★★★★")
-                k2.sendText(msg.to,"★★★★★★★")
-                k3.sendText(msg.to,"★★★★★★★★")
-                k4.sendText(msg.to,"★★★★★★★★★")
-                k5.sendText(msg.to,"★★★★★★★★★★")
-                k6.sendText(msg.to,"★★★★★★★★★★★")
-                k7.sendText(msg.to,"★★★★★★★★★★★★")
-                k8.sendText(msg.to,"★★★★★★★★★★★★★")
-                k9.sendText(msg.to,"★★★★★★★★★★★★★★")
-                k10.sendText(msg.to,"★★★★★★★★★★★★★★★")
-                k11.sendText(msg.to,"★★★★★★★★★★★★★★★★")
-                k12.sendText(msg.to,"★★★★★★★★★★★★★★★★★")
-                k13.sendText(msg.to,"★★★★★★★★★★★★★★★★★★")
-                k14.sendText(msg.to,"★★★★★★★★★★★★★★★★★★★")
-                k15.sendText(msg.to,"★★★★★★★★★★★★★★★★★★★★")
-                k16.sendText(msg.to,"★★★★★★★★★★★★★★★★★★★★★")
-                k17.sendText(msg.to,"★★★★★★★★★★★★★★★★★★★★★★")
-                k18.sendText(msg.to,"★★★★★★★★★★★★★★★★★★★★★★★")
-                k19.sendText(msg.to,"★★★★★★★★★★★★★★★★★★★★★★★★")
-                k20.sendText(msg.to,"★★★★★★★★★★★★★★★★★★★★★★★★★")
-                random.choice(KAC).sendText(msg.to,"Semua Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu\n[✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰]")
+                kk.sendText(msg.to,"BERHITUNG MULAI SATU")
+                ki.sendText(msg.to,"DUA")
+                cl.sendText(msg.to,"TIGA")
+                kc.sendText(msg.to,"EMPAT")
+                ks.sendText(msg.to,"LIMA")
+                k1.sendText(msg.to,"ENAM")
+                k2.sendText(msg.to,"TUJUH")
+                k3.sendText(msg.to,"DELAPAN")
+                k4.sendText(msg.to,"SEMBILAN")
+                k5.sendText(msg.to,"SEPULUH")
+                k6.sendText(msg.to,"SEBELAS")
+                k7.sendText(msg.to,"DUA BELAS")
+                k8.sendText(msg.to,"TIGA BELAS")
+                k9.sendText(msg.to,"EMPAT BELAS")
+                k10.sendText(msg.to,"LIMA BELAS")
+                k11.sendText(msg.to,"ENAM BELAS")
+                k12.sendText(msg.to,"TUJUH BELAS")
+                k13.sendText(msg.to,"DELAPAN BELAS")
+                k14.sendText(msg.to,"SEMBILAN BELAS")
+                k15.sendText(msg.to,"DUA PULUH")
+                k16.sendText(msg.to,"DUA PULUH SATU")
+                k17.sendText(msg.to,"DUA PULUH DUA")
+                k18.sendText(msg.to,"DUA PULUH TIGA")
+                k19.sendText(msg.to,"DUA PULUH EMPAT")
+                k20.sendText(msg.to,"DUA PULUH LIMA")
+                random.choice(KAC).sendText(msg.to,"Semua Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu\n[? ???+? ? ¥ûDÏ ? ?+??? ?]")
       #-------------Fungsi Respon Finish---------------------#
                             
 #==========================================
@@ -8612,7 +8612,7 @@ def bot(op):
 #                        else:
 #                            mc = "Target mimic user\n"
 #                            for mi_d in mimic["target"]:
-#                                mc += "✔️ "+cl.getContact(mi_d).displayName + "\n"
+#                                mc += "?? "+cl.getContact(mi_d).displayName + "\n"
 #                            cl.sendText(msg.to,mc)
 
          
@@ -8724,7 +8724,7 @@ def bot(op):
                         else:
                             mc = "Target mimic user\n"
                             for mi_d in wait3["target"]:
-                                mc += "✔️ "+cl.getContact(mi_d).displayName + "\n"
+                                mc += "?? "+cl.getContact(mi_d).displayName + "\n"
                             cl.sendText(msg.to,mc)
 
             elif "Mimic target " in msg.text:
@@ -8849,7 +8849,7 @@ def bot(op):
 #--------------------------------------------------------
       #-------------Fungsi Balesan Respon Start---------------------#
             elif msg.text in ["Ini Apa","ini apa","Apaan Ini","apaan ini"]:
-                ki.sendText(msg.to,"Ya gitu deh intinya mah 􀨁􀅴questioning􏿿")
+                ki.sendText(msg.to,"Ya gitu deh intinya mah ????questioning??")
 
       #-------------Fungsi Balesan Respon Finish---------------------#
             elif ("Vkick" in msg.text):
@@ -8896,10 +8896,10 @@ def bot(op):
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
-              cl.sendText(msg.to,"Itu Creator Kami Yang Manis Kalem 😜\nSmule : @RK_WAHYU\nNama : இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ\nZodiak : Sagitarius")  
+              cl.sendText(msg.to,"Itu Creator Kami Yang Manis Kalem ??\nSmule : @RK_WAHYU\nNama : ???+? ? ¥ûDÏ ? ?+???\nZodiak : Sagitarius")  
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi"]:
-                 quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami 😂😂😂.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Koplak Lu','Muka Lu Kaya Jembut','Ada Orang kah disini?','Ada Janda Yang Bisa Di Ajak Mojok Gak, Euy','Ada Perawan Nganggur ga Coy?']
+                 quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami ??????.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Koplak Lu','Muka Lu Kaya Jembut','Ada Orang kah disini?','Ada Janda Yang Bisa Di Ajak Mojok Gak, Euy','Ada Perawan Nganggur ga Coy?']
                  psn = random.choice(quote)
                  cl.sendText(msg.to,psn)
             
@@ -9153,12 +9153,12 @@ def bot(op):
 #          ginfo = cl.getGroup(op.param1)
 #          random.choice(KAC).sendText(op.param1, "Welcome\nSelamat Datang Di  " + str(ginfo.name))
 #          random.choice(KAC).sendText(op.param1, "Founder =>>> " + str(ginfo.name) + " :\n" + ginfo.creator.displayName)
-#          random.choice(KAC).sendText(op.param1, "😊 Semoga Betah Kk 😘\nNo Baper,No nakal,No Ngeyel ya,No Bulshit")
+#          random.choice(KAC).sendText(op.param1, "?? Semoga Betah Kk ??\nNo Baper,No nakal,No Ngeyel ya,No Bulshit")
 #          print "MEMBER HAS JOIN THE GROUP"
 #        if op.type == 15:
 #          if op.param2 in Bots:
 #             return
-#          random.choice(KAC).sendText(op.param1, "Baper Tuh Orang :v\nBelum di Anu Kayanya 😊")
+#          random.choice(KAC).sendText(op.param1, "Baper Tuh Orang :v\nBelum di Anu Kayanya ??")
 #          print "MEMBER HAS LEFT THE GROUP"
 #--------------------------------------------------------
 #        if 'MENTION' in mid or Amid or Bmid or Cmid or Dmid or Emid or Fmid or Gmid or Hmid or Imid:
@@ -9199,22 +9199,22 @@ def autolike():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
           ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
+          ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka ??")
           kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
+          kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka ??")
           kc.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
+          kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka ??")
           ks.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
+          ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka ??")
           k1.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
+          k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka ??")
           k2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
+          k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka ??")
           k3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+          k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka ??")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
           print "Like"
         except:
           pass
@@ -9256,14 +9256,14 @@ def likePost():
                     k18.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k19.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k20.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
-                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
-                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
-                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
-                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
-                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
-                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
-                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ɮօt ✰😊\n\n☆º°˚˚☆ இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by இहई╬۞ ۩ ¥ûDÏ ۩ ۞╬हईஇ ⭐👈 »»» http://line.me/ti/p/yudi_std02 «««")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
+                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
+                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
+                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
+                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
+                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
+                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
+                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"??aµt?l??€ By? ???+? ? ¥ûDÏ ? ?+??? ??t ???\n\n?º°°°? ???+? ? ¥ûDÏ ? ?+??? ?°°°?(^?^)\naµt?l??€ by ???+? ? ¥ûDÏ ? ?+??? ??? »»» http://line.me/ti/p/yudi_std02 «««")
                     print "Like"
                 except:
                     pass
