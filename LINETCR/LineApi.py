@@ -324,7 +324,7 @@ class LINE:
       prof = self.getProfile()
 
       print("==============[C-A_Bot]==============")
-      print("     Thanks for TCR and my friend")
+      print(" =====[WAHYUDI]===== Thanks my friend")
       print("=====================================")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
