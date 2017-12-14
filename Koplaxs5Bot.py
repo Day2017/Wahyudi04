@@ -6,31 +6,31 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="En5szruqGezurZl9gloa.jUtRoiUSG9DJhoX6oSTTIG.noEnBgf4wHqYxO+mN+0HrC+VwLWjG7kzVe19moivNXc=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token="EnrrjC0k7RxHpecBqaS0.MsOi6uVzxa4qA+cHgMnbWa.FJW49WVyPiGnCdPlqobdQZi9WpybqnQGOJoE155+t2M=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(token="EnyWhB1JJZRKRB0jJ8Z7.7Vbk3zfGuJk3W4wl8d8brW.SK8PT7TJt9Hc9YfA8H2bFxYwKPcJvFCyNewJdZQIL4E=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(qr=True)
+kc.login(token="EnPZI9WHSulM0e6r8Tic.206JUnl6CWcOivpdHpNtZa.BYJkbzvlrCwDidmLPWeLeva8Z3o4hINlnelgMzOVI8Q=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(qr=True)
+ks.login(token="EnESNblvjZ9wTauQpvr6.rlS4MMX9nYUjawGSeXG6HG.Lq1yb/moVx2ozSqzeHR+lQlQobwlk293TvJUalPgGRQ=")
 ks.loginResult()
 
 print "login success plak"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""O҉n҉e҉ ҉P҉i҉e҉c҉e҉ ҉T҉e҉a҉m҉ ҉P҉r҉o҉t҉e҉c҉t҉
-Owner : ✰ЌờᎮḼΛẌֆ✰
+helpMessage ="""இहई╬۞¥ûDï۞╬हईஇ
+Owner : ✰இहई╬۞¥ûDï۞╬हईஇ✰
 -==================-
 ◄]·♦·Menu For Public·♦·[►
 [•]Adminlist
@@ -55,7 +55,7 @@ Owner : ✰ЌờᎮḼΛẌֆ✰
 >>[Perintah Proteksi]<<
 👑Hanya Untuk Owner👑
 -==================-
-O҉n҉e҉ ҉P҉i҉e҉c҉e҉ ҉T҉e҉a҉m҉ ҉P҉r҉o҉t҉e҉c҉t҉
+இहई╬۞¥ûDï۞╬हईஇ
 -==================-
 """
 KAC=[cl,ki,kk,kc,ks]
@@ -76,19 +76,19 @@ Cmid = kc.getProfile().mid #Ussop
 Dmid = ks.getProfile().mid #Chooper
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["ued156c86ffa56024c0acba16f7889e6d"] 
-owner=["ued156c86ffa56024c0acba16f7889e6d"]
+admin=["u26e4eb388bac83d7631cec7a3acb6d8a"] 
+owner=["u26e4eb388bac83d7631cec7a3acb6d8a"]
 whitelist=[""]
 wait = {
     'contact':False,
     'autoJoin':True,
-    'autoCancel':{"on":True,"members":1},
+    'autoCancel':{"on":True,"members":2},
     'leaveRoom':True,
     'timeline':True,
-    'autoAdd':True,
+    'autoAdd':False,
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
 ≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
-≫ ONE PIECE BOT PROTECT ≪
+≫ இहई╬۞¥ûDï۞╬हईஇ ≪
 
 Ready:
 
@@ -98,12 +98,12 @@ Ready:
 
 ṡȗƿƿȏяṭєԀ ɞʏ:
   
-☆ ONE PIECE BOT PROTECT ☆
+☆ இहई╬۞¥ûDï۞╬हईஇ ☆
 ☆ Destroyers ☆
 
 
 Minat? Silahkan PM!
-Idline: http://line.me/ti/p/~hanavy1992""",
+Idline: http://line.me/ti/p/~yudi_std02""",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
@@ -111,11 +111,11 @@ Idline: http://line.me/ti/p/~hanavy1992""",
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"Tukimin ",
-    "cName2":"Tukiyem ",
-    "cName3":"Sarimin ",
-    "cName4":"Kucrut ",
-    "cName5":"Junaedi ",
+    "cName":" ",
+    "cName2":" ",
+    "cName3":" ",
+    "cName4":" ",
+    "cName5":" ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -1362,7 +1362,7 @@ def bot(op):
                 if wait["autoAdd"] == True: md+="[•]Auto Add [On]\n"
                 else:md+="[•]Auto Add [Off]\n"
                 if wait["commentOn"] == True: md+="[•]Comment [On]\n"
-                else:md+="[•]Comment [Off]\n*============*\n⭐One Piece Bot⭐\n*============*"
+                else:md+="[•]Comment [Off]\n*============*\n⭐இहई╬۞¥ûDï۞╬हईஇ⭐\n*============*"
                 cl.sendText(msg.to,md)
             elif "album merit " in msg.text:
                 gid = msg.text.replace("album merit ","")
@@ -1650,7 +1650,7 @@ def bot(op):
 
             elif msg.text == "Cctv":
               if msg.from_ in admin:
-                cl.sendText(msg.to, "Cek CCTV")
+                cl.sendText(msg.to, "Ciduk")
                 try:
                   del wait2['readPoint'][msg.to]
                   del wait2['readMember'][msg.to]
@@ -1681,7 +1681,7 @@ def bot(op):
 
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Kuy","One piece","Join kuy"]: #Panggil Semua Bot
+            elif msg.text in ["Kuy","masuk","Join kuy"]: #Panggil Semua Bot
               if msg.from_ in owner:
                 G = cl.getGroup(msg.to)
                 ginfo = cl.getGroup(msg.to)
@@ -1770,7 +1770,7 @@ def bot(op):
                     except:
                         pass
             
-            elif msg.text in ["Kaboor"]: #Semua Bot Ninggalin Group Kecuali Bot Induk
+            elif msg.text in ["moleh"]: #Semua Bot Ninggalin Group Kecuali Bot Induk
               if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
@@ -2406,8 +2406,8 @@ def likePost():
                     kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     kc.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     ks.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ^One Piece Bot^\nStatus Boss udah Kami Like\nOwner Kami :\nHanavy Koplaxs")
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"=====Ready=====\n[★]Bot Protect For Group\n[★]\n[★]Selfbot in Your Account[★]\n- 1 Selfbot 1 Bot Assist\n- 1 Selfbot 2 Bot Assist\n- 1 Selfbot 3 Bot Assist\n- 1 Selfbot 4 Bot Assist\n- 1 Selfbot 5 Bot Assist\n\nMau Coba Atau Test Terlebih Dahulu Bisa\nMinat??? PM Id Line @hanavy1992\nLagu Promo Lho Kak\n===[★]One Piece Bot Protect[★]===")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ^🔫🔫🌹🌹gOndrOnk^\nStatus Boss udah Kami Like\nOwner Kami :\இहई╬۞¥ûDï۞╬हईஇ")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"=====Ready=====\n[★]Bot Protect For Group\n[★]\n[★]Selfbot in Your Account[★]\n- 1 Selfbot 1 Bot Assist\n- 1 Selfbot 2 Bot Assist\n- 1 Selfbot 3 Bot Assist\n- 1 Selfbot 4 Bot Assist\n- 1 Selfbot 5 Bot Assist\n\nMau Coba Atau Test Terlebih Dahulu Bisa\nMinat??? PM Id Line @yudi_std02\nLagu Promo Lho Kak\n===[★]இहई╬۞¥ûDï۞╬हईஇ[★]===")
                     print "Like"
                 except:
                     pass
