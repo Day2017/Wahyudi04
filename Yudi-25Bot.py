@@ -388,13 +388,13 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid]
 induk=["u6b34b703cbc5fc83cd1e5b6832a05352"]
-Creator=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352"]
-admin=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352","ub573e7ff77d03c5bd9d2eaefbc9a695f",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid] #Krisna,kris,
-owner=["u3e21520910fc9780c9d4944146dd8508","u6b34b703cbc5fc83cd1e5b6832a05352"]
+Creator=["u6b34b703cbc5fc83cd1e5b6832a05352"]
+admin=["u6b34b703cbc5fc83cd1e5b6832a05352","u3e21520910fc9780c9d4944146dd8508","ue80ced3d2837ee65ddfe64274a35e9e8","ub28f85a01ab5d1c48785f7f2d25dcc13","u7fdf7c40e4ee82d82a8ab24227edc591","udb970ded9b76bb46ad0f1035cf1f3597","uf1d85c9ebff91863befaa22ab7b3c9f7","u1988fb89894e52b1661bd79440ae7498","u8b9fafb58e0d2ed3b4b2ebc77c513ac5",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid] #Krisna,kris,
+owner=["u6b34b703cbc5fc83cd1e5b6832a05352"]
 wait = {
     'contact':False,
     'autoJoin':True,
-    'autoCancel':{"on":True,"members":1},
+    'autoCancel':{"on":True,"members":10},
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':False,
@@ -416,13 +416,13 @@ Idline: http://line.me/ti/p/yudi_std02""",
     "comment":"??aµt?l??€ By??\n?º°°°?? t?a? ? =====[WAHYUDI]===== ??t ? ??º°°°?(^?^)\naµt?l??€ by yudi ??? »»» http://line.me/ti/p/yudi_std02 «««",
     "commentOn":False,
     "commentBlack":{},
-    "wblack":False,
-    "dblack":False,
+    "wblack":True,
+    "dblack":True,
     "clock":False,
     "blacklist":{},
     "whitelist":{},
-    "wblacklist":False,
-    "dblacklist":False,
+    "wblacklist":True,
+    "dblacklist":True,
     "namelock":True,
     "Backup":False,
     "AutoKick":True,
@@ -430,12 +430,12 @@ Idline: http://line.me/ti/p/yudi_std02""",
     "pname":True,
     "qr":True,
     "Protectgr":True,
-    "Protectjoin":False,
+    "Protectjoin":True,
     "Protectcancl":True,
     "protectionOn":True,
     "Protectcancel":True,
-    "winvite":False,
-    "winvite2":False,
+    "winvite":True,
+    "winvite2":True,
     "pnharfbot":{},
     "pname":{},
     "pro_name":{},
@@ -1105,7 +1105,7 @@ def bot(op):
         #------Protect Group Kick finish-----#
         #------Cancel Invite User start------#
         if op.type == 13:
-          if wait["Protectcancl"] == True:
+          if wait["Protectcancel"] == True:
             group = cl.getGroup(op.param1)
             gMembMids = [contact.mid for contact in group.invitee]
             if op.param2 in Bots:
@@ -4390,17 +4390,17 @@ def bot(op):
                     cl.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
-            elif msg.text in ["help","Help"]:
+            elif msg.text in ["menu1","Help"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage)
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["Key","key"]:
+            elif msg.text in ["menu2","key"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,Keyowner)
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["Mimin","mimin"]:
+            elif msg.text in ["menu3","mimin"]:
               if msg.from_ in admin:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,Setgroup)
@@ -5809,7 +5809,7 @@ def bot(op):
 
 #==========================================================================	
             elif msg.text in ["Invite on","invite on"]:
-              #if msg.from_ in admin:
+              if msg.from_ in admin:
                 if wait["Protectcancel"] == True:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Yang Cancel Undangan Kami Kick")
@@ -5822,7 +5822,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"done")
             elif msg.text in ["Cancel off","cancel off"]:
-              #if msg.from_ in admin:
+              if msg.from_ in admin:
                 if wait["Protectcancel"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Yang Cancel Undangan Tidak Kami Kick")
@@ -7234,7 +7234,7 @@ def bot(op):
                         if _name in g.displayName:
                             targets.append(g.mid)
                     if targets == []:
-                        ki.sendText(msg.to,"you are not admin")
+                        ki.sendText(msg.to,"u3e21520910fc9780c9d4944146dd8508")
                     else:
                         for target in targets:
                           if not target in Bots:
@@ -7310,18 +7310,67 @@ def bot(op):
                 cl.updateGroup(G)
                 print "Semua Sudah Lengkap"
                         
-            elif msg.text in ["Kampret join"]:
-              if msg.form_ in admin:
-                  x = ki.getGroup(msg.to)
-                  x.preventJoinByTicket = False
-                  ki.updateGroup(x)
-                  invsend = 0
-                  Ti = ki.reissueGroupTicket(msg.to)
-                  cl.acceptGroupInvitationByTicket(msg.to,Ti)
-                  G = ki.getGroup(msg.to)
-                  G.preventJoinByTicket = True
-                  ki.updateGroup(G)
-                  Ticket = ki.reissueGroupTicket(msg.to)
+            elif msg.text in ["2","hay"]: #Panggil Semua Bot
+              if msg.from_ in owner:
+                G = cl.getGroup(msg.to)
+                ginfo = cl.getGroup(msg.to)
+                G.preventJoinByTicket = False
+                cl.updateGroup(G)
+                invsend = 0
+                Ticket = cl.reissueGroupTicket(msg.to)
+                ki.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                kk.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                kc.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                ks.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k1.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k2.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k3.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k10.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k11.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k12.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k13.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k14.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k15.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k16.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k17.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k18.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k19.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                k20.acceptGroupInvitationByTicket(msg.to,Ticket)
+                time.sleep(0.01)
+                G = cl.getGroup(msg.to)
+                ginfo = cl.getGroup(msg.to)
+                G.preventJoinByTicket = True
+                cl.updateGroup(G)
+                print "Semua Sudah Lengkap"
 
             elif msg.text in ["Luffy join"]:
               if msg.from_ in admin:
@@ -7720,7 +7769,7 @@ def bot(op):
                               random.choice(KAC).kickoutFromGroup(msg.to,[target])
                               random.choice(KAC).sendText(msg.to,"Koq Ga Ditangkis Wooyyy?\Lemah Banget Nih Room")
                               
-            elif "Greet" in msg.text:
+            elif "bubar" in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     print "ok"
@@ -7746,7 +7795,7 @@ def bot(op):
                     gs = k15.getGroup(msg.to)
                     ki.sendText(msg.to,"maaf kalo gak sopan")
                     kk.sendText(msg.to,"makasih semuanya..")
-                    kc.sendText(msg.to,"hehehhehe")
+                    kc.sendText(msg.to,"Salam dr Km Wahyudi")
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': mid}
                     ks.sendMessage(msg)
@@ -9043,7 +9092,7 @@ def bot(op):
 
 
 #===========================================
-        if op.param3 == "1":
+        if op.param3 == "12345":
             if op.param1 in protectname:
                 group = cl.getGroup(op.param1)
                 try:
@@ -9126,7 +9175,7 @@ def bot(op):
         elif "@"+cl.getProfile().displayName in msg.text:
             try:
                 tanya = msg.text.replace("@"+cl.getProfile().displayName,"")
-                jawab = ("Jgn Tag Si "+cl.getProfile().displayName+"Ta cipok luh..!!","Berisik jgn tag si "+cl.getProfile().displayName+" dia lagi asyik ngocok...!!!")
+                jawab = ("Jgn Tag Si "+cl.getProfile().displayName+"jgn tag aq kl gk mau kedepak "+cl.getProfile().displayName+" nah kedepak kan...!!!")
                 jawaban = random.choice(jawab)
                 random.choice(KAC).sendText(msg.to,jawaban)
                 random.choice(KAC).kickoutFromGroup(msg.to,[msg.from_])
