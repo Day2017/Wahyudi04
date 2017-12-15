@@ -118,22 +118,22 @@ k17.loginResult()
 
 k18 = LINETCR.LINE()
 #k18.login(qr=True)
-k18.login(token="En3FJnEXtlHEqSKeZf74.eKVQczIDnmzo80Nf0AhV1a.GAVz8CghCWtpTlGJXU5rgRYkEVaust9sS0Klv/1E6d0=")
+k18.login(token="EnBE2HmeIFFfM91ZTaX7.25Cn7zT2U0ATdXa1ZX81LW.IbylRjW82hYufs9i/2yOn5xZIqx/U4RsDgqs1s+Twmc=")
 k18.loginResult()
 
 k19 = LINETCR.LINE() 
 #k19.login(qr=True)
-k19.login(token="EnBE2HmeIFFfM91ZTaX7.25Cn7zT2U0ATdXa1ZX81LW.IbylRjW82hYufs9i/2yOn5xZIqx/U4RsDgqs1s+Twmc=")#1.2
+k19.login(token="En4MSMmqBVw9S5nHq9J4.FUQk+BmD8RC8M0fTjjKnDa.k0xznzgTbCrl24foktcYx23YKrGljzkdg4KYZm4zhJ4=")#1.2
 k19.loginResult()
 
 k20 = LINETCR.LINE() 
 #k20.login(qr=True)
-k20.login(token="En4MSMmqBVw9S5nHq9J4.FUQk+BmD8RC8M0fTjjKnDa.k0xznzgTbCrl24foktcYx23YKrGljzkdg4KYZm4zhJ4=")#1.2
+k20.login(token="En9ziqocK4BfIGXWJAvf.h7/acorCwJWn0bikcs3GJW.OzgPssOBQsT+ewcOWpxW6RhhKjWCVnSXYRH5bnp286Y=")#1.2
 k20.loginResult()
 
 satpam1 = LINETCR.LINE() # 
-satpam1.login(token="En9ziqocK4BfIGXWJAvf.h7/acorCwJWn0bikcs3GJW.OzgPssOBQsT+ewcOWpxW6RhhKjWCVnSXYRH5bnp286Y=")#satpam 
-#satpam1.login(qr=True)
+#satpam1.login(token="")#satpam 
+satpam1.login(qr=True)
 satpam1.loginResult()
 
 k19 = k20 = k18
