@@ -6,55 +6,55 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 satpam = LINETCR.LINE() # Koplaxs
-satpam.login(token="EnaiT3mXvrVT7N5PcPV5.WVIB6Th9FuqOpB9Iw2XUbq.s6O/cBl2jQK97Q5WMYXP2tyu83YqZZc+pLvphdNROLU=")
+satpam.login(token="EsQJO4am8uNQ1MKPffY2.AZs3a8Vf+ipnhLTOmQbtuG.sPYgVqTS51F1VWIFQNDkxrRCdli3W9Shj6CMuNlPG+4=")
 satpam.loginResult()
 
 cl = LINETCR.LINE() # Koplaxs
-cl.login(token="EnPyaZ5MV3ApA3rC62n2.AZs3a8Vf+ipnhLTOmQbtuG.tZEse8+oTCBzgua27m8x9ExA3ef5Ef0AZNevExoTNj4=")
+cl.login(token="Es0tC3qZpJ9yAf2p9fze.4uWnRTJU51yT+/CjXTyHBG.9t2i0AJNoDGSG/wYv53WOj5LDKx4zt8hmcWepI+36T4=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Luffy
-ki.login(token="EnG2uT8Er5Sy3PxoM0r7.8DHCNR+5ggo//QiQT7pj9W.WxUhyx1x4P4z/h94rcaJ9C7fevcmfnzS3fM9ajvnmXk=")
+ki.login(token="EEsGeLt0wGpw4lxVEkfrb.drkXjI9kC7gz45kx2rUb2W.YLMPgsy7VvNW7aqg81oOrFj6C4EK5ey61r+s7ZO7/5g=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Zorro
-kk.login(token="EnXYQQfRKDfNMWLmEKYf.TxpN+3FqpfVz0URVVjPPxW.9s5CizTUqZePX+do5Ccwc70gJtEcuqnThQOlQwIp0f0=")
+kk.login(token="EsV4melT6DSiaPov2QT3.eXGEKA8y87MQtoFvPFGwuW.h0KZfk94tOhM4A8mOTHZOS0UOJruzBUpc4wmNElUvLY=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Sanji
-kc.login(token="En22qybCKti7mCFbxnH8.pIfscrd8L4dj1jrbrT2fca.JHecjLBkg14Hts7AVYeCB6b4otmei8yw1LqAKqqw8mY=")
+kc.login(token="EsgfDaaBRXtj06q4iRt8.1e8nOeP/17yuiWiheXA//a.szB6Mo80SA/ykNQxwf5/3TjkJxp5J6H7LIi5DLIeCxo=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Ussop
-ks.login(token="EnNBIlnesOyayVG6gY94.DPUJL7N9FlH3q14qZJ5r5a.D2VkazGIa/WrfwoUT/COkseCTweflqm6ZYW0+T2BBq0=")
+ks.login(token="EsjQm0n2tdpprHUvI4Ef.StMJ2yMSv7H5XrT17lGnZW.QFpwc6+XtSxE5lzZel5GqYsv9eGcny/N2vkqLtZQ8T4=")
 ks.loginResult()
 
 ka = LINETCR.LINE() #Chooper
-ka.login(token="EnRQ1Pp9wm6MN7o8TPB4.+Bc/Zlua/rxta3RDE9Qfra.PY3og6DniI6Xz+2ax3DFlfXIoJHRJqt11/8aqeFN1I0=")
+ka.login(token="Esx2WRzbGqatmcvRgmAa.SD28EqyjtLBjPT144PdcQG.mkG2Prb5slJtZ74V0hAvZh1op/hBvVJ8ekt3waO3tIU=")
 ka.loginResult()
 
 kb = LINETCR.LINE() #Franky
-kb.login(token="EnfcwA7uyy2ze6r9wQQ8.0LFAw+X66CVCLF7PSB30Qa.y/WxNze+Ru+XY4hpiurcXlCmD86jPOhikw94dwDp2Dw=")
+kb.login(token="EsJMcXRaDmExzzr5zTI9.VfG2daMSMKOL78PxRGOi6q.RcWGMagc5K3+6LlDanR2YYPvhF8BYa33FNlQhqSYMMo=")
 kb.loginResult()
 
 ko = LINETCR.LINE() #Brook
-ko.login(token="EngxLsYsRQPlWxKsMen1.hm/n508o500AIsyh+lXvmq.hVkPNy7lbVHFW8gNESD5FlW59Sfo982WPhJ9eHRR9Qs=")
+ko.login(token="Esvd9ObxZrobhTC5u1L6.u5E0qHumGolsyebggFHFzG.RWIqnGwLiPAJ5HRTu/bn7IB5hFByqbEHRdG0NCyp5KI=")
 ko.loginResult()
 
 ke = LINETCR.LINE() #Nami
-ke.login(token="En41DAQk4jKPj1dOJZjd.rOli1dtiBis50MI658yqRq.P/allG4ca9VmJTnJ++Opa8OLzMNX5YI6gNIDxXKQ5Q0=")
+ke.login(token="EskoBxPbmbSjxYkKlOZf.0Gxc/M3RVqR4nYkPcDjtZW.ZLKJVOrji80ndfEs9UB4lAafmX7K2ndX7h3OzhIr+z0=")
 ke.loginResult()
 
 ku = LINETCR.LINE() #Robin
-ku.login(token="En4UfdE8DmVKvVkjBJk0.JAwaMojSWCnrhb405Gw7Sa.6LW1neZMo9BktTEMes4ljHOKuNAiNeDbDEFe3rdEFsA=")
+ku.login(token="EsJVJnHzC1pbeVvYLn53.Z7tUqKO5oaEP2cnIzYreyW.e/fxuZx5P3p9MiPHZt8a0Bi/sez+Evya92UQJMV6/3g=")
 ku.loginResult()
 
 satpam = LINETCR.LINE() # Jinbei
-satpam.login(token="En5x33Q8Twr52yioqfg2.kJj6gKL1avGlp7iF9MY8KG.oKgiUffFSF3UdMoWWDMQ5SOsi+7sKCfXt3CCwCXO3kI=")
+satpam.login(token="EswMurTdeyhmrrlB0ryc.Ee/eeDlrP0uTdFlXuHf9Na.gPqP/QHUWAxvhxQkoTqHguBjHWDxmUgnTtZd15gyg9E=")
 satpam.loginResult()
 
 k1 = LINETCR.LINE() #Backup (Gunanya Kalo Akun Self Ke Kick, Dy masuk ke Group dan Ngekick yang Kick Selfbot Dan Selfbot Di undang sama dia,lalu dy leave lagi :D)
-k1.login(token="EnPxnMbLHYGTV189gTqf.xJUtYDt++RBi3klp87+xlW.aZYYlrReV8+j5BKNJ+M+OgKA91CHcT2ux0ezwIklotQ=")
+k1.login(token="EseSSJsiyyFc3656qUpb.laBbOEpcsXIXQThDvNl//W.MfHgHRAqMKgCBGVznGVsZe6q8LQY4I+5OFw3gEi646Y=")
 k1.loginResult()
 
 print "Login Success Plak"
@@ -139,18 +139,18 @@ Idline: http://line.me/ti/p/~yudi_std02""",
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"™Luffy™ ",
-    "cName2":"™Zorro™ ",
-    "cName3":"™Sanji™ ",
-    "cName4":"™Ussop™ ",
-    "cName5":"™Chooper™ ",
-    "cName6":"™Franky™ ",
-    "cName7":"™Brook™ ",
-    "cName8":"™Nami™ ",
-    "cName9":"™Robin™ ",
-    "cName10":"™Jinbei™ ",
-    "cName11":"",
-    "cName12":"™ONE PIECE BOT™ ",
+    "cName":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName2":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName3":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName4":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName5":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName6":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName7":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName8":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName9":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName10":"۝♐IssC_WAhyuDi♐۝ ",
+    "cName11":"۝♐IssC_WAhyuDi♐۝",
+    "cName12":"۝♐IssC_WAhyuDi♐۝",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
